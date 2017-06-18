@@ -12,11 +12,10 @@
 
 - We meet regularly on Mondays and Wednesdays from 6:00 pm to 9:00 pm and every other Saturday, starting July 8th, from 9:00 am to 3:00 pm.
     - Breaks will be provided during class, so feel free to bring meals and snacks (there's a refrigerator and microwave available in the break room).
-    - A spreadsheet will be provided so as to keep track of holidays where we will not be having class.
 
 ## Inclement Weather
 
-- If the University of Arkansas is closed, we will not be meeting for class. The instructors will otherwise make class cancellations known by noon via email. If you feel it is unsafe for you to come to class, please email the instructors.
+- If the University of Arkansas or NWACC are closed, we will not be meeting for class. The instructors will otherwise make class cancellations known by noon via email. If you feel it is unsafe for you to come to class, please email the instructors.
 
 # Course Description & Goals
 
