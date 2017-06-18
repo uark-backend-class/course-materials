@@ -20,4 +20,4 @@
 - Reopen terminal
 - Install Node 6.11: `nvm install 6.11`
 - Install Node 8.1: `nvm install 8.1`
-- Use Node 6.11: `nvm use 6.6`
+- Use Node 6.11: `nvm use 6.11`
