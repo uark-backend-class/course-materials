@@ -1,0 +1,132 @@
+- Command line
+  - History
+    - Shell: any program that users employ to type commands (-Wikipedia)
+      - Interfaces directly with the OS kernal
+        - Kernal is typically the lowest level component of an OS
+    - First shell: Thompson shell
+      - Written at Bell Labs in 1971
+      - Lots of features for subsequent shells came from this one
+    - First modern shells: Bourne shell & C shell
+      - Bourne shell
+        - 1979 at Bell Labs
+        - Every current macOS & Linux distro comes with a version of this shell called `bash`
+          - Bourne Again Shell
+      - C shell
+        - Bill Joy as grad student at UC-Berkeley in late 70s
+    - Unix Shell
+      - Serves as a command language and scripting language
+      - `bash`
+        - Written by Brian Fox in 1989 for the GNU project as free replacement for Bourne shell
+        - Can enter commands or read them from a file (scripting)
+        - Takes some features from C shell
+  - Subjects
+    - home directory
+      - Your default starting location
+      - Represented by `~`
+      - When opening a new terminal window, this is the default location
+    - bash profile
+      - stores user-specific information
+      - found in home folder
+      - `~/.bash_profile`
+        - sometimes you'll see `~/.bashrc` instead
+    - entering a command
+      - `[command] -[argument(s)] input`
+      - `ls -a`
+      - `grep npm`
+      - `ls -al | grep npm`
+    - print to terminal
+      - `echo`
+    - present working directory
+      - `pwd`
+    - list directory contents
+      - `ls`
+        - list
+      - common arguments
+        - `a`: show all files & folders (even hidden)
+        - `h`: show sizes in readable format
+        - `l`: show in long list format
+        - `t`: sort by modification time
+    - make directory
+      - `mkdir`
+        - `mkdir [directory]`
+    - change directory
+      - `cd`
+        - `cd [directory]`
+    - create a file
+      - `touch`
+        - `touch [filename]`
+        - can use with absolute path
+    - determine file type
+      - `file`
+        - `file [filename]`
+    - remove a file
+      - `rm`
+        - remove
+        - common arguments
+          - `r`: remove a directory and all its contents (recursive)
+          - `f`: never prompt (force)
+    - rename a file
+      - `mv`
+        - move
+        - `mv [oldname] [newname]`
+    - move a file
+      - `mv`
+        - move
+        - `mv [oldlocation] [newlocation]`
+    - copy a file
+      - `cp`
+        - copy
+        - `cp [origfile] [newfile]`
+          - If new file exists, it will overwrite new file
+        - common options:
+          - `i`: interactive; will prompt before overwriting
+          - `-R`: copy a directory and all sub directories / files (recursive)
+    - search file contents
+      - `cat`
+        - concatenate files and output in terminal
+        - common arguments
+          - `n`: Show line numbers in result
+      - `head`
+        - head of file
+        - `head [arguments] [file(s)]`
+        - common arguments
+          - `n`: Shows only `n` lines in the file (`head -100`)
+      - `tail`
+        - tail (end) of file
+        - `tail [arguments] [file(s)]`
+        - common arguments
+          - `n`: Shows only `n` lines in the file (`tail -100`)
+      - `grep`
+        - global regular expression print
+        - `grep [arguments] [phrase] [filelocation]`
+        - common arguments
+          - `i`: ignore case
+          - `n`: show line number in result
+          - `o`: only show the matching words or phrases
+    - file permissions
+      - `drwxr-xr-x     6 Brenna  staff    204 Jun 27 16:58 terminal-exercises`
+        - `drwxr-xr-x`
+        - `0`: file type
+          - `-`: normal file
+          - `d`: directory
+        - `1-9`: permissions
+          - `r`: read
+          - `w`: write
+          - `x`: execute
+          - `1-3`: file owner permissions
+          - `4-6`: group's permissions
+          - `789`: everyone else
+        - `6`: number of hard links
+        - `Brenna`: owner name
+        - `staff`: owner group
+        - `204`: file size
+        - `Jun...`: last modified date
+        - `terminal-exercises`: file / directory name
+      - `chmod`
+        - change mode
+        - numbers method
+        - `chmod ###`
+          - `read (r)`: 4
+          - `write (w)`: 2
+          - `execute (x)`: 1
+          - owner > group > everyone

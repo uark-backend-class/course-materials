@@ -9,3 +9,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
 - [Environment Setup](environment.md)
 - Lectures
   - [01 - The Internet and the Web](/lectures/01-the-internet-and-the-web/README.md)
+  - [02 - Command Line](/lectures/02-command-line/README.md)
