@@ -130,3 +130,8 @@
           - `write (w)`: 2
           - `execute (x)`: 1
           - owner > group > everyone
+    - man pages
+      - `man`
+      - manual pages
+      - `man [command]`
+
