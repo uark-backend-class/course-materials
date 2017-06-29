@@ -134,4 +134,114 @@
       - `man`
       - manual pages
       - `man [command]`
-
+    - command shortcuts
+      - `~`
+        - `cd ~/Downloads`
+        - `mv ~/Downloads/bacon.txt ~/school/terminal-exercises/`
+      - `cd`
+      - `.`
+        - reference current directory in commands
+      - `..`
+        - reference next directory up in commands
+        - `cd ../Downloads`
+    - aliases
+      - it's possible to create custom shortcut commands via aliases in your bash_profile
+      - `alias [name]='terminal command'`
+      - `alias cf='touch'`
+      - `alias gohome='cd ~'`
+      - `alias project='cd ~/school && nvm use 6.11'`
+    - root / sudo
+      - `super user do`
+      - The 'admin' of the console
+      - Required as a command when administrative action is required
+      - The terminal window will prompt for password
+      - Root is a synonym for super user
+    - variables
+      - last argument of last command
+        - `$_`
+      - home dir
+        - `$HOME`
+      - path
+        - `$PATH`
+        - Search path
+        - When an unknown command is typed into the terminal, this comprises the list of directories it will search through to find the executable for the command
+    - run multiple commands
+      - `&&`
+        - This will execute a command only if the previous command was successful
+        - `mkdir my-folder && cd $_`
+        - `alias newfolder='mkdir new-folder && cd new-folder'`
+        - `alias newfolder='mkdir new-folder && cd $_'`
+      - `;`
+        - This will execute commands regardless of whether or not the previous command succeeds
+        - `mkdir new-folder ; cd $_ && touch file-in-my-folder.txt`
+    - stdin, stdout, stderr (standard streams)
+      - stdin (0)
+        - `standard input`
+        - Data fed into the program
+      - stdout (1)
+        - `standard output`
+        - Data printed by the program
+          - defaults to the terminal
+      - stderr (2)
+        - `standard error`
+        - Messages & errors
+          - defaults to the terminal
+      - redirecting output
+        - to a file
+          - `>`
+          - Will write stdout to a filename specified
+          - Creates a new file if file does not exist
+          - If file exists, will overwrite content
+            - Use `>>` to append
+          - `ls > files.txt`
+          - `echo 'some text' > textfile1.txt`
+          - `echo 'some new text' > textfile1.txt`
+          - `echo 'line 1 \nline 2' > textfile2.txt`
+          - `cat textfile1.txt textfile2.txt > all-files.txt`
+        - to redirect stderr, specify the stream number (2) and the carrot `2>`
+          - from a file
+          - `<`
+          - redirects stdout from a file to the program
+          - `grep nomnomnom < bacon.txt`
+    - piping
+      - sends data from one program to another
+      - left output feeds into right output
+      - `ls . | grep npm`
+    - top
+      - table of processes
+      - `top`
+      - provides a real-time view of current running processes in the OS
+      - similar to task manager in windows
+    - kill
+      - `kill`
+      - terminates a currently running process
+      - `kill [process id]`
+    - compress / uncompress
+      - `tar`
+      - tape archive
+      - also commonly called a 'tarball'
+      - common options
+        - `c`: create an archive
+        - `v`: verbose; displays all files added to the tarball
+        - `f`: specify the filename
+        - `x`: extract the archive
+        - `C`: changes to specified directory
+        - `t`: list contents of archive
+        - `z`: create a gzip archive
+      - `tar -cvf example.tar my-project/` (compress)
+      - `tar -xvf example.tar` (uncompress)
+        - uncompresses in current directory
+      - there is also a `zip` command
+    - autocomplete
+      - `tab`
+      - Terminal will try to autocomplete directories or files as you type them in
+    - ide commands
+      - atom
+      - subl
+      - vim
+    - scripting
+      - it's also possible to create a file that's a series of commands and execute it
+      - this is very common in dev ops work, and a very useful skill
+      - `sh` or `bash`
+      - `sh [filename]`
+       - Can append any number of commands

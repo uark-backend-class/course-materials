@@ -21,3 +21,11 @@
       - my-file.txt
 - Add text to my-file.txt
 - Change the permissions of my-file.txt so that only the owner has read permissions
+
+## Exercise 4
+
+- Create an alias that does all of the following in a single line:
+  - Creates a new directory
+  - Changes to that directory
+  - Creates a file named `shell.txt`
+    - Write 5 lines in this file

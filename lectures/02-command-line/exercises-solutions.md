@@ -43,3 +43,9 @@ To check the result of the `chmod` change: `ls -alt ./permissions`
 This should be the result:
 
 `-r--------  1 Brenna  staff    0 Jun 27 16:58 myfile.txt`
+
+## Exercise 4
+
+This is an example of an alias that will accomplish all of the exercise objectives:
+
+`alias kapow='mkdir shazam && cd $_ && touch magic-wand.txt && echo -e "1\n2\n3\n4\n5" >> magic-wand.txt'`
