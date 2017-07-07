@@ -40,5 +40,5 @@ typeof (operand)
 
 ```js
 typeof (5 + 2)	// returns "number"
-typeof "javascript"  // returns "string"
+typeof 'javascript'  // returns "string"
 ```
