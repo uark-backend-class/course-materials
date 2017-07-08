@@ -38,7 +38,7 @@
       - Automatic Semicolon Insertion (ASI)
         - Be explicit
         - http://www.bradoncode.com/blog/2015/08/26/javascript-semi-colon-insertion/
-          ```
+          ```js
           a = b + c
           (d + e).foo()    // a = b + c(d + e).foo()
 
@@ -48,7 +48,7 @@
     - Commenting code
     - Operators
       - Unary
-        ```
+        ```js
         var x = 3;
         var y = -5;
         console.log(-x);

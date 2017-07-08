@@ -1,13 +1,13 @@
 # Operators
 - Unary
-  ```
+  ```js
   var x = 3;
   var y = -5;
   console.log(-x);
   console.log(-y);
   ```
 - Arithmetic
-  ```
+  ```js
   var addition = 4 + 5;
   var subtraction = 6 - 2;
   var multiplication = 3 * 7;
@@ -18,7 +18,7 @@
   console.log(modulo);
   ```
 - Assignment
-  ```
+  ```js
   var x = 12;
   var y = 3;
 
@@ -39,7 +39,7 @@
   ```
 - Comparison
   - Equality
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -49,7 +49,7 @@
     console.log(x == '3');
     ```
   - Inequality
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -60,7 +60,7 @@
     console.log(x != '5');
     ```
   - Strict Equality
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -70,7 +70,7 @@
     console.log(x === '3');
     ```
   - Strict Inequality
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -81,7 +81,7 @@
     console.log(x !== '5');
     ```
   - Greater Than
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -92,7 +92,7 @@
     console.log('a' > 'd');
     ```
   - Less Than
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -103,7 +103,7 @@
     console.log('a' < 'd');
     ```
   - Greater Than or Equal To
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -118,7 +118,7 @@
     console.log(b > a);
     ```
   - Less Than or Equal To
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -134,7 +134,7 @@
     ```
 - Logical
   - And (&&)
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -145,7 +145,7 @@
     console.log((a > y) && (z > x) && (x === y));
     ```
   - Or (||)
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -156,7 +156,7 @@
     console.log((z > x) || (z > y) || (x === y));
     ```
   - Not (!)
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -169,7 +169,7 @@
     console.log(!((x > a) || (x === y)));
     ```
   - Combination
-    ```
+    ```js
     var x = 3;
     var y = 3;
     var z = 5;
@@ -185,13 +185,13 @@
 # Data Types
 - Primitives
   - Undefined
-    ```
+    ```js
     var a;
     console.log(a);
     console.log(typeof a);
     ```
   - Null
-    ```
+    ```js
     var a;
     console.log(a);
 
@@ -205,12 +205,12 @@
     console.log(null === undefined);
     ```
   - Boolean
-    ```
+    ```js
     var a = true;
     var b = (5 > 2);
     ```
   - Number
-    ```
+    ```js
     console.log(Math.PI);
     console.log(Math.E);
     console.log(Math.LN2);
@@ -226,12 +226,12 @@
     var x = Number.parseInt(name);
     ```
   - String
-    ```
+    ```js
     var name = 'A string can be a sentence';
     ```
 - Complex
   - Arrays
-    ```
+    ```js
     var arrayOfName = ['Sam', 'Jenny', 'Matt', 'Archimedes'];
     console.log(arrayOfName[3]);
 

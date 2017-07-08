@@ -1,8 +1,13 @@
-// Exercise 1
+# Lecture 2 - JavaScript Basics - Exercise Solutions
+
+## Exercise 1
+```js
 var myName = 'Brenna';
 console.log(myName);
+```
 
-// Exercise 2
+## Exercise 2
+```js
 // A string
 var demoString = 'This is a string';
 
@@ -47,3 +52,4 @@ var multipleProperties = {
     'c' : 674937384
   }
 };
+```
