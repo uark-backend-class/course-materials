@@ -34,6 +34,10 @@
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
 
 
+## Lab 1
+
+- [Lab 1 - Exercises](lab01-exercises.md)
+
 ## Resources
 
 - [Resources](resources.md)
