@@ -4,7 +4,8 @@
 
 [Homework](#homework) | [Resources](#resources)
 
-[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3)
+[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lab 1](#lab-1)
+[Lecture 4](#lecture-4)
 
 
 ## Homework
@@ -37,6 +38,11 @@
 ## Lab 1
 
 - [Lab 1 - Exercises](lab01-exercises.md)
+- [Lab 1 - Solutions](lab01-solutions.md)
+
+## Lecture 4
+
+- [Lecture 4 - Outline](lecture04-outline.md)
 
 ## Resources
 

@@ -253,7 +253,7 @@
     console.log(twoDimensionalMixedArray[1][2]);
     ```
   - Objects
-    ```
+    ```js
     var demoObject = {
       property1: 'property value'
     };

@@ -1,4 +1,4 @@
-# Lab 1 - JavaScript Basics - Exercises
+# Lab 1 - JavaScript Basics - Exercise Solutions
 
 ## Exercise 1
 
@@ -31,7 +31,7 @@ Your function should print out the translation of 'Welcome' that corresponds to 
     };
 
     function welcome (translations, language) {
-        // your code goes here
+        console.log(translations[language]);
     };
 
     welcome(translations, 'french');
@@ -71,10 +71,15 @@ enough money and must receive only his stated salary. Your function should print
 (function () {
 
     function calculateBonus (salary, bonus) {
-        // your code goes here
+        if (bonus === true) {
+            console.log(salary * 10);
+        } else {
+            console.log(salary);
+        }
     };
 
     calculateBonus(10000, false);
+
     calculateBonus(45000, true);
 
 })();
@@ -113,8 +118,21 @@ For bonus points, print out the total that you would spend if you bought each it
         }
     ];
 
+    let total = 0; //bonus points
+
     function goShopping (groceryList) {
-        //your code goes here
+        for (item in groceryList) {
+            console.log(groceryList[item].item);
+            if (groceryList[item].costCoPrice > groceryList[item].walmartPrice) {
+                console.log(groceryList[item].walmartPrice);
+                total = total + groceryList[item].walmartPrice; // bonus points
+            } else {
+                console.log(groceryList[item].costCoPrice);
+                total = total + groceryList[item].costCoPrice; // bonus points
+            }
+        }
+
+        console.log(total); // bonus points
     };
 
     goShopping(groceryList);
@@ -125,23 +143,16 @@ Hint: The following is a valid shortcut to access the property of an object in a
 
 ```js
 const people = [
-    {
-        name: 'Spruce'
-    },
-    {
-        name: 'Brenna'
-    }
+        {
+            name: 'Spruce'
+        },
+        {
+            name: 'Brenna'
+        }
 ];
 
 console.log(people[0].name); // Spruce
 ```
-
-## Exercise 4
-
-- [Codecademy](https://www.codecademy.com/learn/learn-javascript)
-  - Introduction to JavaScript
-  - Variables
-  - Control Flow
 
 ## Exercise 5 - Bonus
 
@@ -178,7 +189,39 @@ Your function should print the students name and letter grade.
     ];
 
     function gradeStudents (students) {
-        //your code goes here
+        for (student in students) {
+            let totalScores = 0;
+            let numGrades = 0;
+
+            for (grade in students[student].homeworkScores) {
+                totalScores = totalScores + students[student].homeworkScores[grade];
+                numGrades = numGrades + 1;
+            }
+
+            for (grade in students[student].testScores) {
+                totalScores = totalScores + students[student].testScores[grade];
+                numGrades = numGrades + 1;
+            }
+
+            const finalGrade = totalScores / numGrades;
+            let letterGrade = '';
+
+            if (finalGrade >= 90) {
+                letterGrade = 'A';
+            } else if (finalGrade >= 80) {
+                letterGrade = 'B';
+            } else if (finalGrade >= 70) {
+                letterGrade = 'C';
+            } else if (finalGrade >= 60) {
+                letterGrade = 'D';
+            } else {
+                letterGrade = 'F';
+            }
+
+            console.log(students[student].name);
+            console.log(letterGrade);
+
+        }
     };
 
     gradeStudents(students);
