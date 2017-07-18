@@ -1,4 +1,4 @@
-# Lecture 3 - JavaScript Basics - Exercises
+# Lecture 3 - JavaScript Basics: Exercises
 
 ## Exercise 1
 Copy the code snippet below into a file, run it via Node and answer the following questions:

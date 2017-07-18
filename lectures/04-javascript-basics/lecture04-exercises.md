@@ -1,3 +1,5 @@
+# Lecture 4 - JavaScript Basics: Exercises
+
 ## Exercise 1
 
 Create a function that takes an array as an argument and logs each value of that array to the console.
@@ -12,7 +14,7 @@ Create a function that takes an array as an argument and multiplies each number 
 
 ## Exercise 4
 
-Create a function that takes two arguments. This function should return an array that contains all the numbers between the two provided numbers. 
+Create a function that takes two arguments. This function should return an array that contains all the numbers between the two provided numbers.
 
 ## Exercise 5
 

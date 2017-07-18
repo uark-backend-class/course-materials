@@ -1,4 +1,4 @@
-# Lecture 4 - JavaScript Basics - Exercise Solutions
+# Lecture 4 - JavaScript Basics: Exercise Solutions
 
 ## Exercise 1
 
