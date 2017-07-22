@@ -52,6 +52,10 @@
 - [Lecture 5 - Exercises](lecture05-exercises.md)
 - [Lecture 5- Exercise Solutions](lecture05-exercise-solutions.md)
 
+## Lecture 6
+
+- [Lecture 6 - Exercises](lecture06-exercises.md)
+- [Lecture 6 - Exercise Solutions](lecture06-exercise-solutions.md)
 
 ## Resources
 
