@@ -10,6 +10,7 @@
 ## Homework
 
 - [Homework 2 - Problems](homework02-problems.md)
+- [Homework 3 - Problems](homework03-problems.md)
 
 
 ## Lecture 1
