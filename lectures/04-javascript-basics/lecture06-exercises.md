@@ -60,4 +60,4 @@ console.log(calculateTip(26.95, 'good'));
 console.log(calculateTip(26.95, 'kind of okay but not great'));  
 console.log(calculateTip(20, 'Excellent'));  
 console.log(calculateTip(26.95, 'good'));  
-```js
+```
