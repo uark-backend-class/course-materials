@@ -32,6 +32,7 @@ console.log(validatePhoneNumber('123'));
 ```
 
 ### Expected Result
+```
 1234567890  
 1234567890  
 1234567890  
@@ -39,3 +40,4 @@ console.log(validatePhoneNumber('123'));
 0000000000
 0000000000
 0000000000
+```

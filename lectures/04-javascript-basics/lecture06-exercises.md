@@ -17,8 +17,10 @@ console.log(cipher('LBH QVQ VG'));
 ```
 
 ## Expected Results
+```
 FREE PIZZA  
-YOU DID IT  
+YOU DID IT
+```  
 
 # Exercise 2
 
@@ -34,12 +36,13 @@ console.log(reverseString('A'));
 ```
 
 ## Expected Results
-
+```
 !dlroW ,olleH  
 tset a si sihT  
 !taerg si tpircsavaJ  
 8ex3LGbm2pALCs?3BTynbxJvJUujRw  
 A
+```
 
 # Exercise 3
 
