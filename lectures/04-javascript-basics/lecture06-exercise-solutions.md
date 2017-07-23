@@ -1,3 +1,5 @@
+# Lecture 6 - JavaScript Basics: Exercise Solutions
+
 # Exercise 1
 
 ```js
