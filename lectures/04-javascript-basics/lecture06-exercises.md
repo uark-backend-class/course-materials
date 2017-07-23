@@ -11,8 +11,10 @@ Write a function that takes a ROT13 cipher and decodes it.
 Hint: look into charCodeAt() - capital A is at ???, capital Z is at ???
 
 ## Test Cases
+```js
 console.log(cipher('SERR CVMMN'));  
 console.log(cipher('LBH QVQ VG'));  
+```
 
 ## Expected Results
 FREE PIZZA  
@@ -23,12 +25,13 @@ YOU DID IT
 Write a function that accepts a string as an argument and returns the reverse of it, do not use `.reverse()`.
 
 ## Test Cases
-
+```js
 console.log(reverseString('Hello, World!'));  
 console.log(reverseString('This is a test'));  
 console.log(reverseString('Javascript is great!'));  
 console.log(reverseString('wRjuUJvJxbnyTB3?sCLAp2mbGL3xe8'));  
 console.log(reverseString('A'));  
+```
 
 ## Expected Results
 
@@ -51,9 +54,10 @@ Excellent: 20%
 If an unrecognized rating is received, return "Rating not recognized";
 
 ## Test Cases
-
+```js
 console.log(calculateTip(20, 'terrible'));  
 console.log(calculateTip(26.95, 'good'));  
 console.log(calculateTip(26.95, 'kind of okay but not great'));  
 console.log(calculateTip(20, 'Excellent'));  
 console.log(calculateTip(26.95, 'good'));  
+```js
