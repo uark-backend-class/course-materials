@@ -1,3 +1,5 @@
+# Lecture 7 - JavaScript Basics: Exercise Solutions
+
 ## Exercise 1
 
 ```js
@@ -77,7 +79,7 @@ console.log(describeList([1.5]));       // "singleton"
 console.log(describeList([1.5,2.5]));   // "longer"
 ```
 
-## Exercise 6
+## Exercise 4
 
 ```js
 function alternateCase(inputString) {
@@ -117,7 +119,7 @@ function isLowercase(letter) {
 }
 ```
 
-## Exercise 7
+## Exercise 5
 
 Example of iterating through each character in an array of strings
 
@@ -171,4 +173,3 @@ function authList (arr) {
   return isValid.length === arr.length;
 }
 ```
-

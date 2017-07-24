@@ -1,3 +1,5 @@
+# Lecture 7 - JavaScript Basics: Exercises
+
 ## Exercise 1
 
 Write a function that accepts a number and a string, and return a string that contains the original string repeated for the number provided.
@@ -32,22 +34,22 @@ console.log(describeList([1.5]));       // "singleton"
 console.log(describeList([1.5,2.5]));   // "longer"
 ```
 
-# Exercise 6
+# Exercise 4
 
 Write a function such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.
 
 ```js
-console.log(alternateCase('hello world'));      // HELLO WORLD 
+console.log(alternateCase('hello world'));      // HELLO WORLD
 console.log(alternateCase('HELLO WORLD'));      // hello world
 console.log(alternateCase('hello WORLD'));      // HELLO world
 console.log(alternateCase('HeLLo WoRLD'));      // hEllO wOrld
 console.log(alternateCase('12345'));            // 12345
 console.log(alternateCase('1a2b3c4d5e'));       // 1A2B3C4D5E
 console.log(alternateCase('String.prototype.charCodeAt'));  // sTRING.PROTOTYPE.CHARcODEaT  
-console.log(alternateCase(alternateCase('Hello World')));  // Hello World 
+console.log(alternateCase(alternateCase('Hello World')));  // Hello World
 ```
 
-## Exercise 7
+## Exercise 5
 
 Given an array of strings representing a list of usernames, return true only if all usernames comply with your company's guidelines. Return false otherwise.
 
