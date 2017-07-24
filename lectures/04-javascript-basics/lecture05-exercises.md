@@ -21,6 +21,7 @@ Write a function that takes a phone number as a string as an argument and perfor
 If the number is good, return a string containing only the numerals of the phone number. If the number is made, return a string of 10 '0's.
 
 ### Test Cases
+```js
 console.log(validatePhoneNumber('(123) 456-7890'));  
 console.log(validatePhoneNumber('123.456.7890'));  
 console.log(validatePhoneNumber('11234567890'));  
@@ -28,8 +29,10 @@ console.log(validatePhoneNumber('21234567890'));
 console.log(validatePhoneNumber('123456789'));
 console.log(validatePhoneNumber('212345678901234'));
 console.log(validatePhoneNumber('123'));   
+```
 
 ### Expected Result
+```
 1234567890  
 1234567890  
 1234567890  
@@ -37,3 +40,4 @@ console.log(validatePhoneNumber('123'));
 0000000000
 0000000000
 0000000000
+```
