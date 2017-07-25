@@ -4,7 +4,7 @@
 
 [Homework](#homework) | [Resources](#resources)
 
-[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lab 1](#lab-1) | [Lecture 4](#lecture-4) | [Lecture 5](#lecture-5) | [Lecture 6](#lecture-6) | [Lecture 7](#lecture-7)
+[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lab 1](#lab-1) | [Lecture 4](#lecture-4) | [Lecture 5](#lecture-5) | [Lecture 6](#lecture-6) | [Lecture 7](#lecture-7) | [Lecture 8](#lecture-8)
 
 
 ## Homework
@@ -62,6 +62,11 @@
 
 - [Lecture 7 - Exercises](lecture07-exercises.md)
 - [Lecture 7 - Exercise Solutions](lecture07-exercise-solutions.md)
+
+## Lecture 8
+
+- [Lecture 8 - Exercises](lecture08-exercises.md)
+- [Lecture 8 - Exercise Solutions](lecture08-exercise-solutions.md)
 
 
 ## Resources
