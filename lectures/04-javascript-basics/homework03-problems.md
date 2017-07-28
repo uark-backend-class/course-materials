@@ -13,12 +13,6 @@ Complete all of the following Free Code Camp exercises and put each solution a f
   - [Confirm the Ending](https://www.freecodecamp.com/challenges/confirm-the-ending)
   - [Return Largest Numbers in Array](https://www.freecodecamp.com/challenges/return-largest-numbers-in-arrays)
 
-### Exercism.io
-
-Install [exercism.io](http://www.exercism.io/) on your machine.
-
-Do the first 10 exercises. Put each solution in a file.
-
 ## Reading
 
 - [A JavaScript Journey with Only Six Characters](http://jazcash.com/a-javascript-journey-with-only-six-characters/?utm_source=javascriptweekly&utm_medium=email)
