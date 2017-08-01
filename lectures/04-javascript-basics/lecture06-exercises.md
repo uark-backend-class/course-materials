@@ -1,6 +1,6 @@
 # Lecture 6 - JavaScript Basics: Exercises
 
-# Exercise 1
+## Exercise 1
 
 One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
 
@@ -10,23 +10,23 @@ Write a function that takes a ROT13 cipher and decodes it.
 
 Hint: look into charCodeAt() - capital A is at ???, capital Z is at ???
 
-## Test Cases
+### Test Cases
 ```js
 console.log(cipher('SERR CVMMN'));  
 console.log(cipher('LBH QVQ VG'));  
 ```
 
-## Expected Results
+### Expected Results
 ```
 FREE PIZZA  
 YOU DID IT
 ```  
 
-# Exercise 2
+## Exercise 2
 
 Write a function that accepts a string as an argument and returns the reverse of it, do not use `.reverse()`.
 
-## Test Cases
+### Test Cases
 ```js
 console.log(reverseString('Hello, World!'));  
 console.log(reverseString('This is a test'));  
@@ -35,7 +35,7 @@ console.log(reverseString('wRjuUJvJxbnyTB3?sCLAp2mbGL3xe8'));
 console.log(reverseString('A'));  
 ```
 
-## Expected Results
+### Expected Results
 ```
 !dlroW ,olleH  
 tset a si sihT  
