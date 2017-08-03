@@ -14,3 +14,12 @@
 
 - [Block Scope is the New IIFE](http://wesbos.com/es6-block-scope-iife/)
 - [ES6 and Block Scope](https://ariya.io/2013/05/es6-and-block-scope)
+
+
+## Execution Context
+
+- [Execution Context Primer](http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/)
+
+## Javascript This
+
+- [MDN This Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)

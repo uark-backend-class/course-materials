@@ -1,0 +1,14 @@
+- Execution Context
+    - Global Context
+        - The default envionment where your code is executed for the first time.
+        - window, global
+    - Function Context
+        - Whenever the flow of execution enters a function body.
+- this
+    - Setting This
+        - Constructor Binding
+        - Explicit Binding
+            - Call and Apply
+            - Bind            
+        - Implicit Binding
+        - Default Binding
