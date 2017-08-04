@@ -49,7 +49,7 @@ myFunc();
 console.log('GLOBAL SECOND: ', myVar);
 ```
 
-What happens when we remove the myVar delcaration from myOtherFunc?
+What happens when we remove the myVar declaration from myOtherFunc?
 
 ```js
 function myFunc() {
@@ -69,7 +69,7 @@ console.log('GLOBAL SECOND: ', myVar);
 ```
 
 ## this and Objects
-`this` is a special keyword in javascript that refers to the context of where a function is called. `this` is an object that contants properties that are present in the current context.
+`this` is a special keyword in javascript that refers to the context of where a function is called. `this` is an object that contains properties that are present in the current context.
 
 the context of the `this` keyword is based on where the function is called, not where it is declared. The order in which functions are called is also referred to as the call-stack.
 
@@ -79,7 +79,7 @@ An example of the call-stack:
 
 ```js
 function foo () {
-	bar();	
+	bar();
   debugger;// call stack is Global >> foo() >> bar()
 }
 
@@ -303,4 +303,3 @@ function car (color: string, numDoors: number) {
 var myCar = new car('red', 'four');
 var myNewCar = new car('blue', 2);
 ```
-
