@@ -47,5 +47,42 @@ console.log(findOldest(listTwo));
 ```
 
 ## Exercise 2
+```js
+function wantedWords(wordPool, numVowels, numConsonants, forbiddenLetters) {
+  const matchingWords = [];
+  const consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
 
-Solution will be covered in class on Saturday August 5th.
+  for (let i = 0; i < wordPool.length; i++) {
+    const vowelsInWord = howManyMatches(wordPool[i], vowels);
+    const consonantsInWord = howManyMatches(wordPool[i], consonants);
+    const forbiddenLettersInWord = howManyMatches(wordPool[i], forbiddenLetters);
+
+    if ((vowelsInWord === numVowels) && (consonantsInWord === numConsonants) && (forbiddenLettersInWord === 0)) {
+      matchingWords.push(wordPool[i]);
+    }
+  }
+
+  return matchingWords;
+}
+
+function howManyMatches(word, letterList) {
+  let matches = 0;
+
+  for (let i = 0; i < word.length; i++) {
+    for (let j = 0; j < letterList.length; j++) {
+      if (word[i] === letterList[j]) {
+        matches++;
+      }
+    }
+  }
+
+  return matches;
+}
+
+var wordList = ['strength', 'afterwards', 'background', 'photograph', 'successful', 'understand'];
+
+console.log(wantedWords(wordList, 1, 7, ['m', 'y']));
+console.log(wantedWords(wordList, 3, 7, ['m', 'y']));
+console.log(wantedWords(wordList, 3, 7, ['a', 's' , 'm', 'y']));
+```
