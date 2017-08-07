@@ -27,7 +27,7 @@ No homework assigned yet
 - [Lecture 3 - Outline](lecture03-outline.md)
 - [Lecture 3 - Exercises](lecture03-exercises.md)
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
-- Slides to be posted soon
+- [Lecture 3 - Slides](lecture03-slides.pdf)]
 
 ## Resources
 
