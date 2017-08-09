@@ -37,7 +37,7 @@ No homework assigned yet
 ## Lecture 5
 
 - [Lecture 5 - Outline](lecture05-notes.md)
-- [Lecture 5 - Slides](lecture05-slides.pdf)]
+- [Lecture 5 - Slides](lecture05-slides.pdf)
 ## Resources
 
 - [Resources](resources.md)
