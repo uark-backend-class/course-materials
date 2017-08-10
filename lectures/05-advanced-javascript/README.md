@@ -8,9 +8,9 @@
 
 ## Homework
 
-# Homework 2
+# Homework 1
 
-- [Homework 1](#homework01.md)
+- [Homework 1](homework01.md)
 
 ## Lecture 1
 
