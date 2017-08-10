@@ -38,6 +38,8 @@ No homework assigned yet
 
 - [Lecture 5 - Outline](lecture05-notes.md)
 - [Lecture 5 - Slides](lecture05-slides.pdf)
+- [Lecture 5 - Exercises](lecture05-exercises.md)
+- [Lecture 5 - Exercise Solutions](lecture05-exercise-solutions.md)
 ## Resources
 
 - [Resources](resources.md)
