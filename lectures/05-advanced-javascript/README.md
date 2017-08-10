@@ -8,7 +8,9 @@
 
 ## Homework
 
-No homework assigned yet
+# Homework 2
+
+- [Homework 1](#homework01.md)
 
 ## Lecture 1
 
