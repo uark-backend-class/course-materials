@@ -29,12 +29,12 @@
 - [Lecture 3 - Outline](lecture03-outline.md)
 - [Lecture 3 - Exercises](lecture03-exercises.md)
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
-- [Lecture 3 - Slides](lecture03-slides.pdf)]
+- [Lecture 3 - Slides](lecture03-slides.pdf)
 
 ## Lecture 4
 
 - [Lecture 4 - Outline](lecture04-outline.md)
-- [Lecture 4 - Slides](lecture04-slides.pdf)]
+- [Lecture 4 - Slides](lecture04-slides.pdf)
 
 ## Lecture 5
 
