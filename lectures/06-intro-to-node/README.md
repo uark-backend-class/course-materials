@@ -24,3 +24,4 @@
 
 - [Lecture 2 - Outline](lecture02-outline.md)
 - [Lecture 2 - Notes](lecture02-notes.md)
+- [Lecture 2 - Exercises](lecture02-exercises.md)
