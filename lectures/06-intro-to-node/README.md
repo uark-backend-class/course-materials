@@ -29,7 +29,7 @@
 ## Lecture 3
 
 - [Lecture 3 - Notes](lecture03-notes.md)
-- [Lecture 3 - Slides](lecture03-slides.md)
+- [Lecture 3 - Slides](lecture03-slides.pdf)
 - [Lecture 3 - Exercises](lecture03-exercises.md)
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
 
