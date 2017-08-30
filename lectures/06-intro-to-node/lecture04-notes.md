@@ -46,7 +46,7 @@ let emails = [
 ];
 
 function getUser(firstName) {
-    return new Promise(function(resolve, reject) {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             for (let i = 0; i < users.length; i++) {
                 if (users[i].firstName === firstName) {
@@ -59,7 +59,7 @@ function getUser(firstName) {
 }
 
 function getUserEmail(userFirstName) {
-    return new Promise(function(resolve, reject) {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             for (let i = 0; i < emails.length; i++) {
                 if (emails[i].firstName === userFirstName) {

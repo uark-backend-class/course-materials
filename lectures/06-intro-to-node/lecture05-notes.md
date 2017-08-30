@@ -23,7 +23,7 @@
       - Any eight digit binary number can be stored as a two digit hexadecimal number.
     - <Buffer 54 68 69 73 20 69 73 20 73 6f 6d 65 20 74 65 78 74 0a>
   - Buffer Creation
-    - Look at [Node buffer docs](https://nodejs.org/dist/latest-v6.x/docs/api/buffer.html)
+    - Look at [Node buffer docs](https://nodejs.org/docs/v8.3.0/api/buffer.html)
     - Old creation methods at top are deprecated, but often, if you look at them, they will tell you what method(s) have replaced them.
     - Node has multiple methods of buffer creation - look through docs at different constructors
     ```js
@@ -76,9 +76,9 @@
     - Instead of working directly with Stream, or even Readable, Writable, etc., when using streams, you create your own custom stream object that will inherit from the type of stream you want to create.
     - These custom streams are usually created for the purpose of accomplishing a specific task, and via inheritance, it will have all the functionality of the built in stream and specific stream type, as well as the event emitter.
   - Readable Stream Demo
-    - Look at [createReadStream in the file system module](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_createreadstream_path_options).
-      - Takes two parameters, path and options, and returns a [ReadStream object](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_class_fs_readstream).
-      - The [Readable Stream](https://nodejs.org/dist/latest-v6.x/docs/api/stream.html#stream_class_stream_readable) listens for various events, we're concerned with the [data event](https://nodejs.org/dist/latest-v6.x/docs/api/stream.html#stream_event_data).
+    - Look at [createReadStream in the file system module](https://nodejs.org/docs/v8.3.0/api/fs.html#fs_fs_createreadstream_path_options).
+      - Takes two parameters, path and options, and returns a [ReadStream object](https://nodejs.org/docs/v8.3.0/api/fs.html#fs_class_fs_readstream).
+      - The [Readable Stream](https://nodejs.org/dist/latest-v6.x/docs/api/stream.html#stream_class_stream_readable) listens for various events, we're concerned with the [data event](https://nodejs.org/docs/v8.3.0/api/fs.html#stream_event_data).
       - The callback expected by the data event will be passed a parameter called chunk.
     - Create a large text file using [a lorem ipsum generator](http://www.lipsum.com/) and generate a large amount of text (60000 bytes or so)
     - Because the event emitter is in our inheritance chain, once we have our stream object created, we can listen for events using the on method. We want to make sure to comply with the documentation we looked at above.
@@ -95,7 +95,7 @@
 
     let readable = fs.createReadStream(filename);
 
-    readable.on('data', function(chunk) {
+    readable.on('data', (chunk) => {
       console.log(chunk);
     });
     ```
@@ -111,7 +111,7 @@
 
     let readable = fs.createReadStream(filename, options);
 
-    readable.on('data', function(chunk) {
+    readable.on('data', (chunk) => {
       console.log(chunk.length);
       console.log(chunk);
     });
@@ -129,7 +129,7 @@
 
     let readable = fs.createReadStream(filename, options);
 
-    readable.on('data', function(chunk) {
+    readable.on('data', (chunk) => {
       console.log(chunk.length);
     });
     ```
@@ -145,11 +145,11 @@
 
     let readable = fs.createReadStream(filename);
 
-    readable.on('data', function(chunk) {
+    readable.on('data', (chunk) => {
       fileData += chunk;
     });
 
-    readable.on('end', function() {
+    readable.on('end', () => {
         console.log(fileData);
     });
     ```
@@ -169,7 +169,7 @@
     let readable = fs.createReadStream(filename, options);
     let writeable = fs.createWriteStream(copyfilename);
 
-    readable.on('data', function(chunk) {
+    readable.on('data', (chunk) => {
       writeable.write(chunk.length);
     });
     ```
@@ -182,7 +182,7 @@
     - If the Writable Stream is also Readable (Duplex Stream), it can be piped again to another Writable Stream.
     - Pipes can be chained indefinitely so long as you start out with a stream that is readable, and subsequent streams be both writable and readable.
   - Pipe Demo 1
-    - Pipe is a [method available on Readable Streams](https://nodejs.org/dist/latest-v6.x/docs/api/stream.html#stream_readable_pipe_destination_options).
+    - Pipe is a [method available on Readable Streams](https://nodejs.org/docs/v8.3.0/api/stream.html#stream_readable_pipe_destination_options).
       - This function returns a value that is the destination, the Writable stream to where we have piped our data.
     ```js
     let fs = require('fs');

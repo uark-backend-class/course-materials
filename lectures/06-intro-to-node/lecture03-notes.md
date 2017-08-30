@@ -17,13 +17,13 @@
   - Synchronous vs Asynchronous
     - Synchronous
       ```js
-      var result = database.query('SELECT * FROM largedatabasetable');
+      const result = database.query('SELECT * FROM largedatabasetable');
       console.log('Hello World');
       ```
     - Asynchronous
       ```js
-      database.query('SELECT * FROM largedatabasetable', function(rows) {
-       var result = rows;
+      database.query('SELECT * FROM largedatabasetable', (rows) => {
+       const result = rows;
        // results of database fetch are used in code here
       });
       console.log('Hello World');
@@ -45,7 +45,7 @@
       callback();
     }
 
-    greet(function() {
+    greet(() => {
       console.log('The callback was invoked.');
     });
     ```
@@ -56,11 +56,11 @@
       callback();
     }
 
-    greet(function() {
+    greet(() => {
       console.log('The callback was invoked.');
     });
 
-    greet(function() {
+    greet(() => {
       console.log('A different callback was invoked.');
     });
   ```
@@ -77,11 +77,11 @@
     callback(data);
   }
 
-  greet(function(data) {
+  greet((data) => {
     console.log('The callback was invoked, ' + data.firstname);
   });
 
-  greet(function(data) {
+  greet((data) => {
     console.log('A different callback was invoked, ' + data.lastname);
   });
   ```
@@ -98,16 +98,16 @@
     callback(fullname);
   }
 
-  greet('Spruce', function(data) {
+  greet('Spruce', (data) => {
     console.log('the callback was invoked: ', data.firstname);
   });
 
-  greet('Brenna', function(data) {
+  greet('Brenna', (data) => {
     console.log('this is a different callback: ', data.lastname);
   });
   ```
 - Callback Pattern
-  - Look at [Node.js file system library docs](https://nodejs.org/dist/latest-v6.x/docs/api/fs.html) for callback examples
+  - Look at [Node.js file system library docs](https://nodejs.org/docs/v8.3.0/api/fs.html) for callback examples
 
 # Asynchronous File Read Demo
   - Create javascript file
@@ -116,9 +116,9 @@
     - Valid use case might be a configuration file that needs to be read before any other code can be run
     - Buffer translates file contents to values that mean things to us
     ```js
-    var fs = require('fs');
+    const fs = require('fs');
 
-    var contents = fs.readFileSync(__dirname + '/fileexample.txt', 'utf8');
+    const contents = fs.readFileSync(__dirname + '/fileexample.txt', 'utf8');
     console.log(contents);
     ```
   - Asynchronous File Read
@@ -130,12 +130,12 @@
       - The Event Loop will invoke my callback once the file read is complete
     - Add readFile() call
       ```js
-      var fs = require('fs');
+      const fs = require('fs');
 
-      var contents = fs.readFileSync('fileexample.txt', 'utf8');
+      const contents = fs.readFileSync('fileexample.txt', 'utf8');
       console.log(contents);
 
-      fs.readFile('fileexample.txt', 'utf8', function(err, data) {
+      fs.readFile('fileexample.txt', 'utf8', (err, data) => {
         console.log(data);
       });
       ```
@@ -143,10 +143,10 @@
       - What order will the logs print?
       - Go over our code in diagram
       ```js
-      var fs = require('fs');
+      const fs = require('fs');
 
       console.log('BEFORE ASYNC CALL');
-      fs.readFile('fileexample.txt', 'utf8', function(err, data) {
+      fs.readFile('fileexample.txt', 'utf8', (err, data) => {
         console.log('READ FILE CALLBACK');
         console.log(data);
       });
@@ -154,12 +154,12 @@
       ```
     - Demonstrate errors by removing text file
       ```js
-      var fs = require('fs');
+      const fs = require('fs');
 
-      var contents = fs.readFileSync('fileexample.txt', 'utf8');
+      const contents = fs.readFileSync('fileexample.txt', 'utf8');
       console.log(contents);
 
-      fs.readFile('fileexample.txt', function(err, data) {
+      fs.readFile('fileexample.txt', (err, data) => {
         console.log(err);
         console.log(data);
       });
@@ -172,11 +172,11 @@
   - Built in function
   - Which log statement will print out first?
   ```js
-  setTimeout(function() {
+  setTimeout(() => {
       console.log('waiting');
   }, 1000);
 
-  setTimeout(function () {
+  setTimeout(() => {
       console.log('still waiting');
   }, 500)
   ```

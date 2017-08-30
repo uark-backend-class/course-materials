@@ -177,15 +177,15 @@ _server.js_:
 ```js
 let emitter = require('./emitter');
 
-emitter.on('call-the-hogs', function () {
+emitter.on('call-the-hogs', () => {
   console.log('WOOOOOOOOOO');
 });
 
-emitter.on('call-the-hogs', function () {
+emitter.on('call-the-hogs', () => {
   console.log('PIG');
 });
 
-emitter.on('call-the-hogs', function () {
+emitter.on('call-the-hogs', () => {
   console.log('SOOOOOIE!');
 });
 
@@ -201,15 +201,15 @@ let Events = require('events');
 
 let emitter = new Events();
 
-emitter.on('call-the-hogs', function () {
+emitter.on('call-the-hogs', () => {
   console.log('WOOOOOOOOOO');
 });
 
-emitter.on('call-the-hogs', function () {
+emitter.on('call-the-hogs', () => {
   console.log('PIG');
 });
 
-emitter.on('call-the-hogs', function () {
+emitter.on('call-the-hogs', () => {
   console.log('SOOOOOIE!');
 });
 
