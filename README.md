@@ -14,3 +14,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [04 - JavaScript Basics](/lectures/04-javascript-basics/README.md)
   - [05 - Advanced JavaScript](/lectures/05-advanced-javascript/README.md)
   - [06 - Intro to Node](/lectures/06-intro-to-node/README.md)
+  - [07 - Internet Deep Dive](/lectures/07-internet-deep-dive/README.md)
