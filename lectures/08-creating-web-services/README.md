@@ -2,8 +2,6 @@
 
 ## Table of Contents
 
-[Resources](resources.md)
-
 [Lecture 1](#lecture-1)
 
 ### Lecture 1
