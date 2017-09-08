@@ -4,7 +4,7 @@
 
 [Resources](resources.md)
 
-[Lecture 1](#lecture-1)
+[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2)
 
 ### Homework
 
@@ -18,3 +18,4 @@
 ### Lecture 1
 
 - [Lecture 1 - Notes](lecture01-notes.md)
+- [Lecture 2 - Notes](lecture02-notes.md)
