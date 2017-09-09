@@ -8,7 +8,7 @@
 
 ### Homework
 
-- No homework has been assigned for this section yet
+- [Homework 1](homework01.md)
 
 ### Homework Solutions
 
