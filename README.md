@@ -17,3 +17,5 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [07 - Internet Deep Dive](/lectures/07-internet-deep-dive/README.md)
   - [08 - Creating Web Services](/lectures/08-creating-web-services/README.md)
   - [09 - Express](/lectures/09-express/README.md)
+  - [10 - Higher Order Functions](/lectures/10-higher-order-functions/README.md)
+  - [11 - Error Handling](/lectures/11-error-handling/README.md)
