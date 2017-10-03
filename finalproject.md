@@ -16,3 +16,8 @@
   - Good: `social-network-for-cats`
   - Bad: `backend-development-final-project`
 - Do not use any sort of templating engine or project generator
+
+
+### Other Important Information
+
+- Demo day is Friday December 15th. Your final project should be 
