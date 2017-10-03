@@ -20,4 +20,4 @@
 
 ### Other Important Information
 
-- Demo day is Friday December 15th. Your final project should be 
+- Demo day is Friday December 15th. Your final project should be in a demo-worthy state by this day.
