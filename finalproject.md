@@ -21,3 +21,13 @@
 ### Other Important Information
 
 - Demo day is Friday December 15th. Your final project should be in a demo-worthy state by this day.
+
+### Examples
+
+- Pulls news articles from various websites and provides a random article to read every day
+- Manages and tracks schedules for employees at a company
+- Connects to an external service and interacts with it in some manner (twitch, twitter, facebook, etc)
+- Something related to your current job, for example automate a currently manual/complex task
+- Inventory management for a store or business
+- A tool to suggest places to eat based on your location
+- Send automated text messages to people when class is cancelled for a school (look into the twilio service)
