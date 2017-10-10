@@ -20,3 +20,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [09 - Express](/lectures/09-express/README.md)
   - [10 - Higher Order Functions](/lectures/10-higher-order-functions/README.md)
   - [11 - Error Handling](/lectures/11-error-handling/README.md)
+  - [12 - Express Exercises](/lectures/12-express-exercises/README.md)
