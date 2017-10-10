@@ -1,5 +1,5 @@
 # Express Practice
 
-## Lecture
+## Assignment
 
 - [Assignment](assignment.md)
