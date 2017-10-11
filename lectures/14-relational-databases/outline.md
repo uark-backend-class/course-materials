@@ -219,16 +219,16 @@
     ```js
     'use strict';
 
-    var mysql = require('mysql');
+    const mysql = require('mysql');
 
-    var databaseConnection = mysql.createConnection({
+    const databaseConnection = mysql.createConnection({
       host: 'localhost',
       user: 'root',
       password: 'demopassword',
       database: 'demo'
     });
 
-    databaseConnection.query('SELECT * FROM Users', function (error, rows) {
+    databaseConnection.query('SELECT * FROM Users', (error, rows) => {
       if (error) {
         console.log('ERROR:');
         console.log(error);
@@ -239,7 +239,7 @@
       }
     });
 
-    databaseConnection.end(function(error) {
+    databaseConnection.end((error) => {
       console.log('TERMINATED DATABASE CONNECTION');
     });
     ```
