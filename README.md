@@ -22,3 +22,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [11 - Error Handling](/lectures/11-error-handling/README.md)
   - [12 - Express Practice](/lectures/12-express-practice/README.md)
   - [13 - Testing Practice](/lectures/13-testing-practice/README.md)
+  - [14 - Relational Databases](/lectures/14-relational-databases/README.md)
