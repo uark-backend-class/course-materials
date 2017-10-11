@@ -17,6 +17,7 @@
   - Good: `social-network-for-cats`
   - Bad: `backend-development-final-project`
 - Do not use any sort of templating engine or project generator
+- Include a set of queries created in Postman that demonstrate all routes
 
 
 ### Other Important Information
