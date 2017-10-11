@@ -5,6 +5,7 @@
 ### Requirements
 
 - Has an API component
+- Provide Postman examples
 - Has unit tests
 - Has database component
 - No front-end required, but OK if wanted
