@@ -24,3 +24,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [13 - Testing Practice](/lectures/13-testing-practice/README.md)
   - [14 - Relational Databases](/lectures/14-relational-databases/README.md)
   - [15 - MongoDB](/lectures/15-mongodb/README.md)
+  - [16 - Mongoose](/lectures/16-mongoose/README.md)
