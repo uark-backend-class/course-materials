@@ -1,0 +1,58 @@
+# MongoDB
+
+- CAP Theorem
+  - What is it?
+    - Also known as Brewer's theorem
+      - Computer Scientist Eric Brewer
+    - States that a distributed system can only have 2 of the following 3:
+      - Consistency: a database read will always return the most recent write to the database
+      - Availability: every request receives a response, but is not guaranteed to contain the most recent write
+      - Partition Tolerance: The system will continue to function even when network inconsistency drops data
+    - Most RDBMs (i.e. SQL) prefer consistency over availability
+    - Most NoSQL DBs (i.e. MongoDB) prefer availability over consistency
+- NoSQL
+  - What is it?
+    - "Not only SQL"
+    - "Non SQL"
+    - A database that is not relational
+    - Have existed since the 1960s, but didn't become popular until Google/Facebook/Amazon found them useful
+  - What problems does it solve?
+    - Easier horizontal scaling
+      - Horizontal scaling is adding more "nodes" (servers)
+      - Vertical scaling is adding more resources on a server (i.e. more CPU power)
+    - Better availability
+    - For the web, most NoSQL database structures mirror JSON
+    - There are several different types of NoSQL database:
+      - key-value
+        - Very fast and simple data structure
+      - wide column
+        - Similar to relational databases like SQL, except each column in the row can store different types of data
+      - graph
+        - Relational data (like social relationships) where the structure of the data is best represented by a mathematical graph (i.e. nodes & edges)
+      - document
+        - Similar to key-value in implementation, but also include a query language to retrieve documents based on their content
+  - What are some examples?
+    - Redis (key-value)
+    - MongoDB (document)
+    - Neo4j (graph)
+    - Cassandra (wide column)
+  - Why MongoDB?
+    - Easy to learn
+    - Open-source
+    - Lots of resources
+    - JavaScript query syntax!
+- MongoDB
+  - Installation
+  - Structure
+    - Databases
+    - Collections
+      - Analogous to tables in SQL
+    - Documents
+      - Analogous to rows in SQL
+  - Querying
+    - Test Data Set
+    - Mongo Shell
+    - Create
+    - Read
+    - Update
+    - Delete
