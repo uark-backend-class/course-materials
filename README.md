@@ -25,3 +25,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [14 - Relational Databases](/lectures/14-relational-databases/README.md)
   - [15 - MongoDB](/lectures/15-mongodb/README.md)
   - [16 - Mongoose](/lectures/16-mongoose/README.md)
+  - [17 - Cloud Infrastructure](/lectures/17-cloud-infrastructure/README.md)
