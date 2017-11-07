@@ -1,0 +1,35 @@
+# Authentication
+
+- Types of authentication
+  - Local
+    - Storing username and passwords specific to your website
+    - These require both client-side data validation of form elements (i.e. checking the data that gets submitted) and server-side validation once the information reaches the server. This is very hard to get right.
+  - OAuth 1.0 / 2.0
+    - Open standard for authorization whereby a user authorizes a website to access information about them (i.e. GitHub profile) without sharing their password. This is done through a series of "tokens" -- pieces of data that represent identity and access privileges.
+  - SAML
+    - Security Assertion Markup Language
+    - XML-based authentication standard
+      - Often used to facilitate single-sign on (SSO) in a web browser
+      - An older standard; often used in enterprise
+  - OpenId
+    - A newer standard and alternative to SAML SSO in the browser
+    - Also used by very large organizations
+- Creating an Express App with Passport.js
+  - Passport.js
+    - Auth0 as another option
+    - Middleware authentication for Express apps
+  - Install libraries
+    - `npm install express passport passport-github2 express-session mongoose body-parser -S`
+      - `passport`: The base Passport library
+      - `passport-github2`: The OAuth2 GitHub authentication strategy for Passport
+      - `express-session`: Express middleware used to manage sessions on the server
+        - Note: *Do not* use the default Express session storage in production. Use proper session storage. Great examples can be found on the `npm` site for this module.
+        - Aside: Sessions
+          - A `session` is a unique identifier for a user's interaction w/the service. This information is typically transmitted between server and client via a `cookie` in the browser. The cookie contains a reference to the `session`. The server recognizes the `session` referenced in the `cookie` and knows that the user has been authenticated (as an example). This keeps users from having to re-authenticate every time they visit a website. Sessions typically time out after a period time.
+  - Configuration
+  - Initialization
+  - User Model
+    - Securing MongoDB
+  - Routes
+    - Signing up on GitHub
+  - Middleware

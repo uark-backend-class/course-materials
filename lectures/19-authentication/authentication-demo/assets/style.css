@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+button {
+  background-color: #6e5494;
+  color: #FFF;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 3px;
+}
+
+img {
+  width: 32px;
+  vertical-align: middle;
+}
+
+span {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+	transform: scale(0.9, 0.9);
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn-logout {
+  background-color: #333;
+  margin-top: 24px;
+  width: 100%
+}
