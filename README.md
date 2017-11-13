@@ -27,4 +27,5 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [16 - Mongoose](/lectures/16-mongoose/README.md)
   - [17 - Cloud Infrastructure](/lectures/17-cloud-infrastructure/README.md)
   - [18 - HTTS and SSL](lectures/18-http-and-ssl/README.md)
-  - [19 - Authentication](lectures/19-authentication/README.md)
+  - [19 - Logging](lectures/19-logging/README.md)
+  - [20 - Authentication](lectures/20-authentication/README.md)
