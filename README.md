@@ -29,3 +29,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [18 - HTTS and SSL](lectures/18-http-and-ssl/README.md)
   - [19 - Logging](lectures/19-logging/README.md)
   - [20 - Authentication](lectures/20-authentication/README.md)
+  - [21 - Practice](lectures/21-practice/README.md)
