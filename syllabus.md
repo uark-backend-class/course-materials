@@ -14,7 +14,7 @@
 
 ## Inclement Weather
 
-- If the University of Arkansas is closed, we will not be meeting for class. The instructors will otherwise make class cancellations known by noon via email. If you feel it is unsafe for you to come to class, please email the instructors.
+- If the University of Arkansas or NWACC are closed, we will not be meeting for class. The instructors will otherwise make class cancellations known by noon via email. If you feel it is unsafe for you to come to class, please email the instructors.
 
 # Course Description & Goals
 
