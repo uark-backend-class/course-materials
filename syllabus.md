@@ -1,18 +1,16 @@
 # Instructor Information & Contact Policy
 
-- Spruce Feinstein
-   - sprucefeinstein@gmail.com
+- Aaron Robinson
+    - aaronlrobinson@gmail.com
 
-- Brenna Blackwell
-    - brennablackwell@gmail.com
-
-- Be sure to include both Spruce and Brenna on all emails regarding this course. We will try to maintain a 24 hour turnaround time on all emails for this class.
+- I will try to maintain a 24 hour turnaround time on all emails for this class.
 
 # Meeting Times
+- [Course Calendar](https://calendar.google.com/calendar?cid=Mms5b2YyMHR1YzlqamUxMm51M2dwcDFzZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
-- We meet regularly on Mondays and Wednesdays from 6:00 pm to 9:00 pm and every other Saturday, starting July 8th, from 9:00 am to 3:00 pm.
-    - Breaks will be provided during class, so feel free to bring meals and snacks (there's a refrigerator and microwave available in the break room).
-    - A spreadsheet will be provided so as to keep track of holidays where we will not be having class.
+- We meet regularly on Mondays and Wednesdays from 5:30 pm to 9:00 pm and every other Saturday, starting February 10th, from 9:00 am to 3:00 pm.
+    - Breaks will be provided during class, so feel free to bring meals and snacks.
+    - A calendar will be provided so as to keep track of holidays where we will not be having class.
 
 ## Inclement Weather
 
@@ -27,7 +25,7 @@
 # Classroom Policies
 
 - Drinks in closed containers are allowed in the classroom. A breakroom and break time will be provided for meals.
-- Attendance is not mandatory, but we ask that you keep in contact with the instructors in the event of having to miss a class.
+- Attendance is mandatory. Please, keep in contact with your instructor in the event of having to miss a class.
 - Computer will be provided for students in class, but you are encouraged to bring your own laptop.
     - The instructors are equipped to help you with Linux/OSX machines.
 
