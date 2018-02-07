@@ -1,6 +1,6 @@
 # Homework 1 - Command Line
 
-## Due Monday, July 3rd
+## Due Wednesday, February 7th
 
 ### Further Reading
 
