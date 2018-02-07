@@ -10,3 +10,4 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
 - Lectures
   - [01 - The Internet and the Web](/lectures/01-the-internet-and-the-web/README.md)
   - [02 - Command Line](/lectures/02-command-line/README.md)
+  - [03 - Source Control](/lectures/03-source-control/README.md)
