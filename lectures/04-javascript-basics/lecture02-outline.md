@@ -1,26 +1,26 @@
 # Operators
 - Unary
   ```js
-  var x = 3;
-  var y = -5;
+  let x = 3;
+  let y = -5;
   console.log(-x);
   console.log(-y);
   ```
 - Arithmetic
   ```js
-  var addition = 4 + 5;
-  var subtraction = 6 - 2;
-  var multiplication = 3 * 7;
-  var division = 12 / 4;
+  let addition = 4 + 5;
+  let subtraction = 6 - 2;
+  let multiplication = 3 * 7;
+  let division = 12 / 4;
 
 
-  var modulo = 12 % 5;
+  let modulo = 12 % 5;
   console.log(modulo);
   ```
 - Assignment
   ```js
-  var x = 12;
-  var y = 3;
+  let x = 12;
+  let y = 3;
 
   // x = x + y;
   x += y;
@@ -40,9 +40,9 @@
 - Comparison
   - Equality
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x == y);
     console.log(x == z);
@@ -50,9 +50,9 @@
     ```
   - Inequality
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x != y);
     console.log(x != z);
@@ -61,9 +61,9 @@
     ```
   - Strict Equality
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x === y);
     console.log(x === z);
@@ -71,9 +71,9 @@
     ```
   - Strict Inequality
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x !== y);
     console.log(x !== z);
@@ -82,9 +82,9 @@
     ```
   - Greater Than
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x > z);
     console.log(z > x);
@@ -93,9 +93,9 @@
     ```
   - Less Than
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x < z);
     console.log(z < x);
@@ -104,30 +104,30 @@
     ```
   - Greater Than or Equal To
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x >= y);
     console.log(x >= z);
 
-    var a = false;
-    var b = true;
+    let a = false;
+    let b = true;
 
     console.log(a > b);
     console.log(b > a);
     ```
   - Less Than or Equal To
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
+    let x = 3;
+    let y = 3;
+    let z = 5;
 
     console.log(x <= y);
     console.log(x <= z);
 
-    var a = false;
-    var b = true;
+    let a = false;
+    let b = true;
 
     console.log(a < b);
     console.log(b < a);
@@ -135,10 +135,10 @@
 - Logical
   - And (&&)
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
-    var a = 12;
+    let x = 3;
+    let y = 3;
+    let z = 5;
+    let a = 12;
 
     console.log((z > x) && (z > y));
     console.log((z > x) && (z > a));
@@ -146,10 +146,10 @@
     ```
   - Or (||)
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
-    var a = 12;
+    let x = 3;
+    let y = 3;
+    let z = 5;
+    let a = 12;
 
     console.log((x > a) || (x === y));
     console.log((x > a) || (a === z));
@@ -157,12 +157,12 @@
     ```
   - Not (!)
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
-    var a = 12;
-    var c = 0;
-    var b = true;
+    let x = 3;
+    let y = 3;
+    let z = 5;
+    let a = 12;
+    let c = 0;
+    let b = true;
 
     console.log(!b);
     console.log(!c);
@@ -170,12 +170,12 @@
     ```
   - Combination
     ```js
-    var x = 3;
-    var y = 3;
-    var z = 5;
-    var a = 12;
-    var b = 5679483;
-    var c = 0;
+    let x = 3;
+    let y = 3;
+    let z = 5;
+    let a = 12;
+    let b = 5679483;
+    let c = 0;
 
     console.log( (x < a) && ( (a > b) || (z > y) ) );
     console.log( (x < a) && (a > b) || (z > y) );
@@ -186,13 +186,13 @@
 - Primitives
   - Undefined
     ```js
-    var a;
+    let a;
     console.log(a);
     console.log(typeof a);
     ```
   - Null
     ```js
-    var a;
+    let a;
     console.log(a);
 
     a = 5;
@@ -206,8 +206,8 @@
     ```
   - Boolean
     ```js
-    var a = true;
-    var b = (5 > 2);
+    let a = true;
+    let b = (5 > 2);
     ```
   - Number
     ```js
@@ -217,34 +217,34 @@
 
     console.log(10 / 0);
 
-    var a = '3';
-    var b = '1.3';
-    var name = 'A string can be a sentence';
+    let a = '3';
+    let b = '1.3';
+    let name = 'A string can be a sentence';
 
-    var z = Number.parseInt(a);
-    var y = Number.parseFloat(b);
-    var x = Number.parseInt(name);
+    let z = Number.parseInt(a);
+    let y = Number.parseFloat(b);
+    let x = Number.parseInt(name);
     ```
   - String
     ```js
-    var name = 'A string can be a sentence';
+    let name = 'A string can be a sentence';
     ```
 - Complex
   - Arrays
     ```js
-    var arrayOfName = ['Sam', 'Jenny', 'Matt', 'Archimedes'];
+    let arrayOfName = ['Sam', 'Jenny', 'Matt', 'Archimedes'];
     console.log(arrayOfName[3]);
 
-    var mixedArray = [4, 'Sam', 6, 34, 'Jenny'];
+    let mixedArray = [4, 'Sam', 6, 34, 'Jenny'];
     console.log(mixedArray);
 
-    var twoDimensionalArray = [
+    let twoDimensionalArray = [
       [1, 2, 3],
       [4, 5, 6],
       [7, 8, 9]
     ];
 
-    var twoDimensionalMixedArray = [
+    let twoDimensionalMixedArray = [
       ['One', 'Two', 'Three'],
       [4, 'Five', 6],
       [7, 8, 'Nine']
@@ -254,11 +254,11 @@
     ```
   - Objects
     ```
-    var demoObject = {
+    let demoObject = {
       property1: 'property value'
     };
 
-    var customer = {
+    let customer = {
       'firstName' : 'Sam',
       'lastName' : 'White',
       'mailingAddress' : {
@@ -271,7 +271,7 @@
       'listOfPets' : ['Fluffy', 'Mittens']
     };
 
-    var customer2 = {
+    let customer2 = {
       'firstName' : 'John',
       'lastName' : 'Smith',
       'mailingAddress' : {
@@ -286,7 +286,7 @@
 
     console.log(customer2.firstName);
 
-    var person = {
+    let person = {
       'firstName': 'Sam',
       'lastName': 'White'
     };

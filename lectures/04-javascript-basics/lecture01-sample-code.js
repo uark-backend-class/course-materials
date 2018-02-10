@@ -2,9 +2,9 @@ console.log('Hello World');
 
 // JavaScript is case sensitive
 // cameCaseVariableNames are the agreed on community standard
-var myname = 'Fred';
-var myName = 'Sarah';
-var MYNAME = 'Jim';
+let myname = 'Fred';
+let myName = 'Sarah';
+let MYNAME = 'Jim';
 
 console.log(myname);
 console.log(myName);
@@ -18,15 +18,15 @@ console.log(MYNAME);
 console.log('end');
 
 // Unary Operators
-var x = -5;
-var y = ++x;
-var z = --x;
-var a = -x;
+let x = -5;
+let y = ++x;
+let z = --x;
+let a = -x;
 console.log(y);
 console.log(z);
 console.log(a);
 
-var myName = 'Joe';
+let myName = 'Joe';
 console.log(typeof(x));
 console.log(typeof(myName));
 

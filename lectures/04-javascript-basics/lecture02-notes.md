@@ -192,7 +192,7 @@ The character code for "D" is 68, while the character code for "c" is 99. In cas
 - If the operand is undefined, returns true.
 
 ```js
-var obj = { 'greeting': 'howdy' };
+let obj = { 'greeting': 'howdy' };
 
 console.log(!obj);			// returns false
 console.log(!'');			// returns true
@@ -239,18 +239,18 @@ If one of the operands is not a primitive Boolean, then the && operator will beh
 It's important to note that if the first operand of the logical && expression evaluates as false, the second operand is never evaluated. This occurs because JavaScript will assume that if the first value is false, then there is no reason to evaluate the second operand.
 
 ```js
-var foo = true;
+let foo = true;
 
-var result = (foo && bar);		// error thrown
+let result = (foo && bar);		// error thrown
 console.log(result);
 ```
 
 In the above, an error is thrown because the first part of the expression is evaluated as true, and `bar` is an undefined variable in the second part of the expression. However, if `foo` is changed to false, then the second part of the expression will not be evaluated and no error will be thrown.
 
 ```js
-var foo = false;
+let foo = false;
 
-var result = (foo && bar);		// no error
+let result = (foo && bar);		// no error
 console.log(result);			// returns false
 ```
 
@@ -279,7 +279,7 @@ Also like the logical AND operator, if the first operand evaluates to true, then
 One of the most common uses for the logical OR operator is to prevent assigning a null or undefined value to a variable.
 
 ```js
-var foo = bar || baz;
+let foo = bar || baz;
 ```
 
 In the above example, if `bar` is unassigned or undefined, then `baz` is used as a backup variable / object.

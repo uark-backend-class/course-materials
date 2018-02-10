@@ -49,8 +49,8 @@
     - Operators
       - Unary
         ```js
-        var x = 3;
-        var y = -5;
+        let x = 3;
+        let y = -5;
         console.log(-x);
         console.log(-y);
         ```
