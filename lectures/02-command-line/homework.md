@@ -16,4 +16,3 @@ Please read through the Viking Code School article, [A Command Line Crash Course
     - This file should get created in the crunchy folder _even if the crunchy folder already exists_
   - Add the text 'Is the best!' to `peanutbutter.txt`
   - Add the current directory path to the next line in `peanutbutter.txt`
-  - Change the permissions of the file so that the owner, group and every one else have only read and write permissions.
