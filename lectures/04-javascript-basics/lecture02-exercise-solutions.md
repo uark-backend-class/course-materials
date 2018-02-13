@@ -10,46 +10,21 @@ console.log(myName);
 ```js
 // A string
 let demoString = 'This is a string';
+// A number
+let myNumber = 12;
+// A boolean
+let myBoolean = true;
+// undefined
+let myUndefined = undefined;
+// null
+let myNull = null;
+```
 
-// An array with five numbers
-let numberArray = [1, 2, 3, 4, 5];
+## Exercise 3
+```js
+let firstName = "Jane";
+let lastName = "Doe";
+let fullName = firstName + " " + lastName;
 
-// An array containing three different data types
-// This array actually contains five different data types
-// It is to demonstration how to include each type in an array
-let a;
-let mixedArray = ['string', 6, null, a, true, (1 === 3)];
-
-// A two dimensional array
-let twoDimensionalArray = [
-  ['array', 'one'],
-  [7, 8, 9, 10, 11]
-];
-
-// An object with three properties
-let threeProperties = {
-  'propertyTheFirst' : 1,
-  'propertyTheSecond' : 'a value goes here',
-  'propertyTheThird' : true
-};
-
-// Another example of an object with three properties
-let validObject = {
-  propertyTheFirst : 1,
-  propertyTheSecond : 'a value goes here',
-  propertyTheThird: demoString
-};
-
-// An object with multiple properties, with one property being an object
-// Two properties an objects, but it was demonstrating how you can
-// create both object literals or use variables that are objects
-let multipleProperties = {
-  'one' : 1,
-  'two' : threeProperties,
-  'three' : {
-    'a' : 'A',
-    'b' : false,
-    'c' : 674937384
-  }
-};
+console.log(fullName();
 ```
