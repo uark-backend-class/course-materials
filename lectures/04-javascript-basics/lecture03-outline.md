@@ -245,4 +245,9 @@
     ```
   - Do While
     ```js
+    let isSomethingTrue = false;
+
+    do {
+      console.log('in do while loop');
+    } while (isSomethingTrue);
     ```

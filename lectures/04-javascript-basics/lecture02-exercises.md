@@ -1,4 +1,4 @@
-# Lecture 2 - JavaScript Basics - Exercises
+# Lecture 2 - JavaScript Basics: Exercises
 
 ## Exercise 1
 - Create a variable, and assign it your name as a string value.

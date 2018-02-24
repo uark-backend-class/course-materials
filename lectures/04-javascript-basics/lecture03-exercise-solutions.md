@@ -1,4 +1,4 @@
-# Lecture 3 - JavaScript Basics - Exercise Solutions
+# Lecture 3 - JavaScript Basics: Exercise Solutions
 
 ## Exercise 1
 - `SyntaxError`

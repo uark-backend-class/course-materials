@@ -1,4 +1,4 @@
-# Lecture 2 - JavaScript Basics - Exercise Solutions
+# Lecture 2 - JavaScript Basics: Exercise Solutions
 
 ## Exercise 1
 ```js
