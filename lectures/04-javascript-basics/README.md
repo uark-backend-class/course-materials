@@ -1,15 +1,15 @@
-# JavaScript Lectures
+# JavaScript Basics Lectures
 
 ## Table of Contents
 
 [Homework](#homework) | [Resources](#resources)
 
-[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lecture 4](#lecture-4) | [Lecture 5](#lecture-5)
+[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lab 1](#lab-1) | [Lecture 4](#lecture-4) | [Lecture 5](#lecture-5) | [Lecture 6](#lecture-6) | [Lecture 7](#lecture-7) | [Lecture 8](#lecture-8) | [Lecture 9](#lecture-9) | [Lecture 10](#lecture-10)
 
 ## Homework
 
-- No Homework Assigned Yet
-
+- [Homework 2 - Problems](homework02-problems.md)
+- [Homework 3 - Problems](homework03-problems.md)
 
 ## Lecture 1
 
@@ -46,6 +46,31 @@
 - [Lecture 5 - Notes](lecture05-notes.md)
 - [Lecture 5 - Exercises](lecture05-exercises.md)
 - [Lecture 5- Exercise Solutions](lecture05-exercise-solutions.md)
+
+## Lecture 6
+
+- [Lecture 6 - Exercises](lecture06-exercises.md)
+- [Lecture 6 - Exercise Solutions](lecture06-exercise-solutions.md)
+
+## Lecture 7
+
+- [Lecture 7 - Exercises](lecture07-exercises.md)
+- [Lecture 7 - Exercise Solutions](lecture07-exercise-solutions.md)
+
+## Lecture 8
+
+- [Lecture 8 - Exercises](lecture08-exercises.md)
+- [Lecture 8 - Exercise Solutions](lecture08-exercise-solutions.md)
+
+## Lecture 9
+
+- [Lecture 9 - Exercises](lecture09-exercises.md)
+- [Lecture 9 - Exercise Solutions](lecture09-exercise-solutions.md)
+
+## Lecture 10
+
+- [Lecture 10 - Exercises](lecture10-exercises.md)
+- [Lecture 10 - Exercise Solutions](lecture10-exercise-solutions.md)
 
 
 ## Resources
