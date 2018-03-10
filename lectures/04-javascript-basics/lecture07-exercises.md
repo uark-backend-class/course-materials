@@ -58,7 +58,7 @@ The guidelines say that the username is valid only if:
 - it is between 6-10 characters long
 - contains at least 1 lowercase letter
 - contains at least 1 number
-- contains only numbers and lowercase letters
+- contains only numbers and letters
 
 ```js
 console.log(authList(['john123', 'alex222', 'sandra1']));    // returns true
