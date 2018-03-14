@@ -2,8 +2,23 @@
 
 ## Exercise 1
 
-Solution will be covered in class on Wednesday August 2nd.
+function findOldest(developerArray) {
+  let oldest = developerArray.reduce(function(currentOldest, contender) {
+    if (contender.age >= currentOldest[0].age) {
+      if (contender.age != currentOldest[0].age) {
+        currentOldest.length = 0;
+      }
+      currentOldest.push(contender);
+      return currentOldest;
+    }
+    else {
+      return currentOldest;
+    }
+  }, [ { age: 0 } ]);
+
+  return oldest;
+}
 
 ## Exercise 2
 
-Solution will be covered in class on Saturday August 5th.
+Not provided at this time.
