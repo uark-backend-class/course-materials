@@ -1,7 +1,7 @@
 # Exercise 1
 
 ```js
-var person = {
+let person = {
   firstName: 'John',
   lastName: 'Doe',
   getFullName: function () {
@@ -9,7 +9,7 @@ var person = {
   }
 }
 
-var anotherPerson = {
+let anotherPerson = {
   firstName: 'Jane',
   lastName: 'Smith'
 }
@@ -24,7 +24,7 @@ console.log(person.getFullName());
 console.log(person.getFullName.call(anotherPerson));
 
 // Using bind on Function prototype
-var getOtherFullName = person.getFullName.bind(anotherPerson);
+let getOtherFullName = person.getFullName.bind(anotherPerson);
 console.log(person.getFullName());
 console.log(getOtherFullName());
 ```

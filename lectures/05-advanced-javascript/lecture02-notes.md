@@ -22,7 +22,7 @@ This is the highest level of scope that a variable or function can have, it's ac
 
 This code is global because it is not inside a function. Putting this code is app.js globally attaches them to the global function.
 ```js
-var myVar = 'I am a string';
+let myVar = 'I am a string';
 
 function myFunc () {
   console.log('I am a function');
@@ -33,17 +33,17 @@ function myFunc () {
 
 ```js
 function myFunc() {
-  var myVar = 8;
+  let myVar = 8;
   console.log('MY FUNC: ', myVar);
   myOtherFunc();
 }
 
 function myOtherFunc() {
-  var myVar;
+  let myVar;
   console.log('MY OTHER FUNC: ', myVar);
 }
 
-var myVar = 3;
+let myVar = 3;
 console.log('GLOBAL FIRST: ', myVar);
 myFunc();
 console.log('GLOBAL SECOND: ', myVar);
@@ -53,7 +53,7 @@ What happens when we remove the myVar declaration from myOtherFunc?
 
 ```js
 function myFunc() {
-  var myVar = 8;
+  let myVar = 8;
   console.log('MY FUNC: ', myVar);
   myOtherFunc();
 }
@@ -62,7 +62,7 @@ function myOtherFunc() {
   console.log('MY OTHER FUNC: ',myVar);
 }
 
-var myVar = 3;
+let myVar = 3;
 console.log('GLOBAL FIRST: ', myVar);
 myFunc();
 console.log('GLOBAL SECOND: ', myVar);
@@ -117,7 +117,7 @@ function foo () {
 	console.log(this.bar);
 }
 
-var baz = {
+let baz = {
 	bar: 'howdy',
 	foo: foo
 };
@@ -158,8 +158,8 @@ strictCall();
 ```js
 'use strict';
 
-var a = 5;
-var b = 6;
+let a = 5;
+let b = 6;
 
 function add(c, d) {
   return this.a + this.b + c + d;
@@ -172,10 +172,10 @@ console.log(add.apply(this, [7, 8]));
 ```js
 'use strict';
 
-var a = 5;
-var b = 6;
+let a = 5;
+let b = 6;
 
-var myObj = {
+let myObj = {
   a: 11,
   b: 15
 };
@@ -196,7 +196,7 @@ function foo () {
 	console.log(this.bar);
 }
 
-var baz = {
+let baz = {
 	bar: 'howdy'
 }
 
@@ -221,13 +221,13 @@ function foo (arg) {
 	return this.a + arg;
 }
 
-var obj = {
+let obj = {
 	a: 2
 };
 
-var bar = foo.bind(obj);
+let bar = foo.bind(obj);
 
-var b = bar(9);		// 2 9
+let b = bar(9);		// 2 9
 console.log(b);		// 11
 
 // simplified version of a bind method
@@ -247,14 +247,14 @@ function foo (bar) {
 	this.bar = bar;
 }
 
-var baz = new foo('howdy');
+let baz = new foo('howdy');
 console.log(baz.bar);		// howdy
 ```
 
 ```js
 'use strict';
 
-var myObject = {
+let myObject = {
   number: 4,
   getNumber: function() {
     return this.number;
@@ -267,7 +267,7 @@ console.log(myObject.getNumber());
 ```js
 'use strict';
 
-var myObject = {
+let myObject = {
   number: 4,
 };
 
@@ -283,7 +283,7 @@ console.log(myObject.getNumber());
 ```js
 'use strict';
 
-var person = {
+let person = {
   firstName: 'John',
   lastName: 'Doe',
   getFullName: function () {
@@ -295,11 +295,11 @@ console.log(person.getFullName());
 ```
 
 ```js
-function car (color: string, numDoors: number) {
+function Car (color: string, numDoors: number) {
     this.color = color;
     this.numDoors = numDoors;
 }
 
-var myCar = new car('red', 'four');
-var myNewCar = new car('blue', 2);
+let myCar = new Car('red', 'four');
+let myNewCar = new Car('blue', 2);
 ```

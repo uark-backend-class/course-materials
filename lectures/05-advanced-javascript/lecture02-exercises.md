@@ -5,7 +5,7 @@ Using what we've learned, how could we call getFullName, but force its this to b
 ```js
 'use strict';
 
-var person = {
+let person = {
   firstName: 'John',
   lastName: 'Doe',
   getFullName: function () {
