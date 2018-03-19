@@ -4,6 +4,7 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
 
 ## Table of Contents
 
+- [Schedule](schedule.md)
 - [Syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Environment Setup](environment.md)
