@@ -4,11 +4,13 @@
 
 [Homework](#homework) | [Resources](#resources)
 
-[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lecture 4](#lecture-4)
+[Lecture 1](#lecture-1) | [Lecture 2](#lecture-2) | [Lecture 3](#lecture-3) | [Lecture 4](#lecture-4) | [Lecture 5](#lecture-5)
 
 ## Homework
 
-No homework assigned yet
+# Homework 1
+
+- [Homework 1](homework01.md)
 
 ## Lecture 1
 
@@ -27,12 +29,19 @@ No homework assigned yet
 - [Lecture 3 - Outline](lecture03-outline.md)
 - [Lecture 3 - Exercises](lecture03-exercises.md)
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
-- [Lecture 3 - Slides](lecture03-slides.pdf)]
+- [Lecture 3 - Slides](lecture03-slides.pdf)
 
 ## Lecture 4
 
 - [Lecture 4 - Outline](lecture04-outline.md)
-- [Lecture 4 - Slides](lecture04-slides.pdf)]
+- [Lecture 4 - Slides](lecture04-slides.pdf)
+
+## Lecture 5
+
+- [Lecture 5 - Outline](lecture05-notes.md)
+- [Lecture 5 - Slides](lecture05-slides.pdf)
+- [Lecture 5 - Exercises](lecture05-exercises.md)
+- [Lecture 5 - Exercise Solutions](lecture05-exercise-solutions.md)
 ## Resources
 
 - [Resources](resources.md)
