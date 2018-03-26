@@ -31,12 +31,12 @@
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
 - [Lecture 3 - Slides](lecture03-slides.pdf)
 
-## Lecture 4
+## Lecture 4 - Recursion, Prototypes Continued
 
 - [Lecture 4 - Outline](lecture04-outline.md)
 - [Lecture 4 - Slides](lecture04-slides.pdf)
 
-## Lecture 5
+## Lecture 5 - Regular Expressions
 
 - [Lecture 5 - Outline](lecture05-notes.md)
 - [Lecture 5 - Slides](lecture05-slides.pdf)
