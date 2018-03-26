@@ -6,3 +6,5 @@
 |Mar 19| [Advanced JS - Lecture 2: : this, Object Construction](lectures/05-advanced-javascript/) |[Study topics in the first JavaScript assessment this Saturday (Mar 24)](assessment-js-git-topics.md)|
 |Mar 21| [Advanced JS - Lecture 3: Using Prototypes](lectures/05-advanced-javascript/lecture) |[Study topics in the first JavaScript assessment this Saturday (Mar 24)](assessment-js-git-topics.md)|
 |Mar 24| Basic JavaScript Assessment, Advanced JavaScript||
+|Mar 26| [Advanced JS - Lecture 4: Recursion](lectures/05-advanced-javascript/lecture)||
+|Mar 28| [Advanced JS - Lecture 5: Regular Expressions](lectures/05-advanced-javascript/lecture)|Homework|
