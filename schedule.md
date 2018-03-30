@@ -7,4 +7,4 @@
 |Mar 21| [Advanced JS - Lecture 3: Using Prototypes](lectures/05-advanced-javascript/) |[Study topics in the first JavaScript assessment this Saturday (Mar 24)](assessment-js-git-topics.md)|
 |Mar 24| Basic JavaScript Assessment, Advanced JavaScript||
 |Mar 26| [Advanced JS - Lecture 4: Recursion](lectures/05-advanced-javascript/)||
-|Mar 28| [Advanced JS - Lecture 5: Regular Expressions](lectures/05-advanced-javascript/)|Homework|
+|Mar 28| [Intro to Node - Lecture 1: Modules, Intro to Node](lectures/06-intro-to-node/)|[Homework](https://classroom.github.com/a/WoLDoaz)|
