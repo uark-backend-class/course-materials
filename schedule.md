@@ -8,3 +8,6 @@
 |Mar 24| Basic JavaScript Assessment, Advanced JavaScript||
 |Mar 26| [Advanced JS - Lecture 4: Recursion](lectures/05-advanced-javascript/)||
 |Mar 28| [Intro to Node - Lecture 1: Modules, Intro to Node](lectures/06-intro-to-node/)|[Homework](https://classroom.github.com/a/WoLDoaz)|
+|Apr 2| Homework review, [Intro to Node - Lecture 2: fs, path libraries](lectures/06-intro-to-node/)|[Sign up for the Developer Meetup](https://www.meetup.com/fayettevillejs/events/248956984/)|
+|Apr 5| [Developer Meetup](https://www.meetup.com/fayettevillejs/events/248956984/) ||
+|Apr 7| Intro to Node Lecture 3 ||
