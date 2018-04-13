@@ -2,19 +2,7 @@
 
 ## Table of Contents
 
-[Resources](resources.md)
-
 [Lecture 1](#lecture-1)
-
-### Homework
-
-- [Homework 1 - Routing](homework01.md)
-
-
-### Homework Solutions
-
-- [Homework 1 Solution - Routing](homeworksolution01.js)
-
 
 ### Lecture 1
 
