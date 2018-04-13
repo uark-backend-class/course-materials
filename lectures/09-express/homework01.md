@@ -14,4 +14,4 @@
 * We have already written several self-contained functions in our Javascript Basics section that will easily convert to the API format. Reference Section 4 Lectures 6 through 10 for example problems. Select any that you want from these previous examples.
 * These routes should accept the function arguments as either query parameters or a post body and return the results of the function in the response.
 * You should write tests for each of your routes using the tools we covered in lecture.
-* We will try to be available on slack to answer any questions you may have, but our answers may be slightly delayed. 
+* I will try to be available on slack to answer any questions you may have. 
