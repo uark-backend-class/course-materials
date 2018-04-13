@@ -13,3 +13,4 @@
 |Apr 7| [Intro to Node Lecture 3 and 4: Async and Promises](lectures/06-intro-to-node/) ||
 |Apr 9| [Intro to Node Lecture 5: Buffers, Streams, and Pipes](lectures/06-intro-to-node/) ||
 |Apr 11| [Internet Deep Dive](lectures/07-internet-deep-dive/) ||
+|Apr 16| [Creating Web Services](lectures/08-creating-web-services/) ||
