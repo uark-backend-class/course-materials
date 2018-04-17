@@ -13,6 +13,6 @@
 |Apr 7| [Intro to Node Lecture 3 and 4: Async and Promises](lectures/06-intro-to-node/) ||
 |Apr 9| [Intro to Node Lecture 5: Buffers, Streams, and Pipes](lectures/06-intro-to-node/) ||
 |Apr 11| [Internet Deep Dive](lectures/07-internet-deep-dive/) ||
-|Apr 16| [Creating Web Services](lectures/08-creating-web-services/) ||
-|Apr 18| [Express](lectures/09-express/) | [Express Homework](lectures/09-express/homework01.md) Assigned |
+|Apr 16| [Creating Web Services](lectures/08-creating-web-services/) |[Exercism JavaScript: Hello World](http://exercism.io/languages/javascript/about) Assigned|
+|Apr 18| [Express](lectures/09-express/) | Exercism Hello World Due <br/>[Express Homework](lectures/09-express/homework01.md) Assigned |
 |Apr 21| [Express: Testing](lectures/09-express/) ||
