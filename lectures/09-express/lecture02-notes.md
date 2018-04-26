@@ -7,7 +7,8 @@ We'll start by installing the necessary NPM modules and creating an Express app 
 ```bash
 npm init -y
 npm install express body-parser --save
-npm install mocha chai chai-http --save-dev
+npm install chai chai-http --save-dev
+npm install -g mocha
 ```
 
 _server.js_:
@@ -64,6 +65,10 @@ describe('Routes', () => {
   });
 });
 
+```
+To test your app, you will use the following:
+```bash
+mocha server.spec.js
 ```
 
 Using `chai-http` gives Chai the ability to make HTTP requests to our server, which we pass in as the argument to the `chai.http` file. Next, we'll test a named route: `/tacos` (because of course). We'll need to add 1 additional test to ensure the result we're getting from the server is what we expect.
