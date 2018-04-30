@@ -1,0 +1,2 @@
+- [Best Practices for Error Handling is Node.js](https://www.joyent.com/blog/best-practices-for-error-handling-in-node-js)
+- [A String is not an Error](http://www.devthought.com/2011/12/22/a-string-is-not-an-error/)

@@ -8,6 +8,7 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
 - [Syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Environment Setup](environment.md)
+- [Project Requirements](finalproject.md)
 - Lectures
   - [01 - The Internet and the Web](/lectures/01-the-internet-and-the-web/README.md)
   - [02 - Command Line](/lectures/02-command-line/README.md)
@@ -18,3 +19,8 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
   - [07 - Internet Deep Dive](/lectures/07-internet-deep-dive/README.md)
   - [08 - Creating Web Services](/lectures/08-creating-web-services/README.md)
   - [09 - Express](/lectures/09-express/README.md)
+  - [10 - Higher Order Functions](/lectures/10-higher-order-functions/README.md)
+  - [11 - Error Handling](/lectures/11-error-handling/README.md)
+  - [12 - Express Practice](/lectures/12-express-practice/README.md)
+  - [13 - Testing Practice](/lectures/13-testing-practice/README.md)
+  - [14 - Relational Databases](/lectures/14-relational-databases/README.md)
