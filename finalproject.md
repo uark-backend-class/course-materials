@@ -1,6 +1,6 @@
-## Project Approval Due: October 18, 2017
+## Project Approval Due: May 14, 2018
 
-## Final Project Due: December 18, 2017
+## Final Project Due: TBD mid-July 2018
 
 ### Requirements
 
@@ -22,7 +22,7 @@
 
 ### Other Important Information
 
-- Demo day is Friday December 15th. Your final project should be in a demo-worthy state by this day.
+- Demo day is TBD mid-July. Your final project should be in a demo-worthy state by this day.
 
 ### Examples
 
