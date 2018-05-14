@@ -1,4 +1,4 @@
-## Project Approval Due: May 14, 2018
+## Project Approval Due: May 19, 2018
 
 ## Final Project Due: TBD mid-July 2018
 
@@ -17,7 +17,7 @@
   - Good: `social-network-for-cats`
   - Bad: `backend-development-final-project`
 - Do not use any sort of templating engine or project generator
-- Include a set of queries created in Postman that demonstrate all routes
+- Include a set of queries created in Postman that demonstrates all routes
 
 
 ### Other Important Information

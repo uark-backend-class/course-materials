@@ -13,6 +13,16 @@
 |Apr 7| [Intro to Node Lecture 3 and 4: Async and Promises](lectures/06-intro-to-node/) ||
 |Apr 9| [Intro to Node Lecture 5: Buffers, Streams, and Pipes](lectures/06-intro-to-node/) ||
 |Apr 11| [Internet Deep Dive](lectures/07-internet-deep-dive/) ||
-|Apr 16| [Creating Web Services](lectures/08-creating-web-services/) |[Exercism JavaScript: Hello World](http://exercism.io/languages/javascript/about) Assigned|
+|Apr 16| [Creating Web Services](lectures/08-creating-web-services/) |[Exercism JavctaScript: Hello World](http://exercism.io/languages/javascript/about) Assigned|
 |Apr 18| [Express](lectures/09-express/) | Exercism Hello World Due <br/>[Express Homework](lectures/09-express/homework01.md) Assigned |
 |Apr 21| [Express: Testing](lectures/09-express/) ||
+|Apr 23| [Express: Practice](lectures/12-express-practice/) ||
+|Apr 25| [Express: Middleware](lectures/09-express/) ||
+|Apr 30| [Express: Middleware](lectures/09-express/) ||
+|May 2| [Relational Databases](lectures/14-relational-databases/) ||
+|May 5| [MySQL REST services with Express](lectures/14-relational-databases/) ||
+|May 7| [MongoDB: Lectures 1&2](lectures/15-mongodb/) ||
+|May 9| [Mongoose: Lecture 1](lectures/16-mongoose/) | PUT and DELETE Puppy methods|
+|May 14| [Mongoose: Lecture 2](lectures/16-mongoose/) |[Final Project](./finalproject.md)|
+|May 16| [Cloud Infrastructure and Deployment](lectures/17-cloud-infrastructure/) ||
+|May 19| [HTTP and SSL](lectures/18-http-and-ssl/)<br/>[Logging](lectures/19-logging/)|Final project write up due|
