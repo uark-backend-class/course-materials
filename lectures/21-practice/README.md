@@ -1,0 +1,3 @@
+# Practice
+
+- [Exercises](exercises.md)
