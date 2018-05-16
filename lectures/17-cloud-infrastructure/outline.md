@@ -63,7 +63,7 @@
           }
           ```
         - Run locally to test mLab connection
-  - Google Cloud
+  - Google Cloud ([Based on this Google tutorial](https://cloud.google.com/community/tutorials/run-expressjs-on-google-app-engine))
     - [NodeJS Runtime](https://cloud.google.com/appengine/docs/flexible/nodejs/runtime)
     - Setup
       - Sign up for account
