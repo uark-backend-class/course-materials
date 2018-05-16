@@ -52,7 +52,7 @@ A schema in mongoose is similar to a mold. It's the blueprint that specifies wha
 ```js
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/puppies', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/puppies');
 const db = mongoose.connection;
 
 db.on('error', () => {
@@ -77,7 +77,7 @@ Now that we have our schema (blueprint), we now need a mechanism to create multi
 ```js
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/puppies', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/puppies');
 var db = mongoose.connection;
 
 db.on('error', () => {
