@@ -25,4 +25,10 @@
 |May 9| [Mongoose: Lecture 1](lectures/16-mongoose/) | PUT and DELETE Puppy methods|
 |May 14| [Mongoose: Lecture 2](lectures/16-mongoose/) |[Final Project](./finalproject.md)|
 |May 16| [Cloud Infrastructure and Deployment](lectures/17-cloud-infrastructure/) ||
-|May 19| [HTTP and SSL](lectures/18-http-and-ssl/)<br/>[Logging](lectures/19-logging/)|Final project write up due|
+|May 19| [HTTPS and SSL](lectures/18-http-and-ssl/)<br/>[Logging](lectures/19-logging/)|Final project write up due|
+|May 21| Mongoose practice||
+|May 23| Mongoose practice||
+|May 30| [Authentication](lectures/20-authentication/)||
+|Jun 2| [Authentication continued](lectures/20-authentication/)||
+|Jun 4| Views ||
+|Jun 6| Capstone Project Updates<br />Regular Expressions ||
