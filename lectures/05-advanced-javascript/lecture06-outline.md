@@ -1,0 +1,11 @@
+#Async Await
+- Review of what is asynchronous exactly
+- History of working with asynchronous functions
+  - Callbacks
+  - Promises
+- Downsides to Callbacks
+- How to use promises
+- Async Await
+  - Introduced in ES2017
+  - Allows us to write code with less callbacks
+  - Can be used with promises

@@ -31,4 +31,7 @@
 |May 30| [Authentication](lectures/20-authentication/)||
 |Jun 2| [Authentication continued](lectures/20-authentication/)||
 |Jun 4| Views ||
-|Jun 6| Capstone Project Updates<br />Regular Expressions ||
+|Jun 6| Capstone Project Updates<br />[Regular Expressions: Adv. JS Lecture 5](lectures/05-advanced-javascript/) ||
+|Jun 11| [Regular Expressions Exercises: Adv. JS Lecture 5](lectures/05-advanced-javascript/) ||
+|Jun 13| Capstone Project Updates<br /> Agile Software Development (Waterfall, SCRUM)||
+|Jun 13| Async, Await<br/> ||
