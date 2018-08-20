@@ -1,6 +1,9 @@
 # Command Line Exercise Solutions
 
 ## Exercise 1
+`mkdir backend-class`
+
+`cd backend-class`
 
 `mkdir terminal-exercises`
 
@@ -24,7 +27,7 @@ The result of the `grep` should be:
 
 ## Exercise 3
 
-`cd ~/terminal-exercises`
+`cd ~/backend-class/terminal-exercises`
 
 `mkdir permissions`
 

@@ -1,6 +1,6 @@
-## Project Approval Due: May 19, 2018
+## Project Approval Due: TBD
 
-## Final Project Due: TBD mid-July 2018
+## Final Project Due: TBD 
 
 ### Requirements
 
@@ -19,10 +19,6 @@
 - Do not use any sort of templating engine or project generator
 - Include a set of queries created in Postman that demonstrates all routes
 
-
-### Other Important Information
-
-- Demo day is TBD mid-July. Your final project should be in a demo-worthy state by this day.
 
 ### Examples
 

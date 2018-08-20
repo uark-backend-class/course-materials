@@ -1,15 +1,16 @@
-# Backend Web Development w/Node.js Section Two Course Materials
+# Backend Web Development with Node.js Course Materials
 
 Course materials (syllabus, lectures, additional resources) for the UAGC IT Readiness course.
 
 ## Table of Contents
 
-- [Schedule](schedule.md)
+- [Lecture and Homework Schedule](schedule.md)
+- [Course Google Calendar](https://calendar.google.com/calendar/embed?src=dolltqonn7qtbhtn4oh5kcgic0%40group.calendar.google.com&ctz=America%2FChicago)
 - [Syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Environment Setup](environment.md)
-- [Project Requirements](finalproject.md)
-- Lectures
+- [Capstone Project Requirements](finalproject.md)
+- Course Materials
   - [01 - The Internet and the Web](/lectures/01-the-internet-and-the-web/README.md)
   - [02 - Command Line](/lectures/02-command-line/README.md)
   - [03 - Source Control](/lectures/03-source-control/README.md)

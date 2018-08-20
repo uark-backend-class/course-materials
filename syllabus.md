@@ -1,14 +1,15 @@
 # Instructor Information & Contact Policy
 
 - Aaron Robinson
+    - slack: aaron.robinson
     - aaronlrobinson@gmail.com
 
 - I will try to maintain a 24 hour turnaround time on all emails for this class.
 
 # Meeting Times
-- [Course Calendar](https://calendar.google.com/calendar?cid=Mms5b2YyMHR1YzlqamUxMm51M2dwcDFzZmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+- [Course Calendar](https://calendar.google.com/calendar/embed?src=dolltqonn7qtbhtn4oh5kcgic0%40group.calendar.google.com&ctz=America%2FChicago)
 
-- We meet regularly on Mondays and Wednesdays from 5:30 pm to 9:00 pm and every other Saturday, starting February 10th, from 9:00 am to 3:00 pm.
+- We meet regularly on Mondays and Wednesdays from 5:30 pm to 9:00 pm and every other Saturday from 9:00 am to 3:00 pm.
     - Breaks will be provided during class, so feel free to bring meals and snacks.
     - A calendar will be provided so as to keep track of holidays where we will not be having class.
 
