@@ -5,7 +5,13 @@
 
 `cd backend-class`
 
-`mkdir terminal-exercises`
+`mkdir exercises`
+
+`cd exercises`
+
+`mkdir command-line`
+
+`cd command-line`
 
 `touch hello.txt`
 
