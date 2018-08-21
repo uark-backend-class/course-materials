@@ -11,7 +11,7 @@
 ## Exercise 2
 
 - Download the file named bacon.txt pasted in slack
-- Move it into the terminal-exercises folder
+- Move it into the command-line folder
 - Rename it to veggies.txt
 - Find the line numbers that contain the phrase `nomnomnom`
 
