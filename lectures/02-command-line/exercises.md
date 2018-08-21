@@ -4,8 +4,9 @@
 
 - Create a directory structure in your home directory that looks like:
   - backend-class
-    - terminal-exercises
-      - hello.txt
+    - exercises
+      - command-line
+        - hello.txt
 
 ## Exercise 2
 
