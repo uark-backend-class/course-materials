@@ -7,7 +7,7 @@
   - Add a new file called `teachers.txt`, stage and commit changes
 
 - Exercise 3
-  - Create branch called `students`, add a new file called `students.txt`, stage and commit changes
+  - Create a branch called `students` and checkout that branch, add a new file called `students.txt`, stage and commit changes
 
 - Exercise 4
   - Edit the students.txt file with your name, stage the changes, create a commit
