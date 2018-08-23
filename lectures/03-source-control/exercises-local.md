@@ -1,7 +1,7 @@
 - Exercise 1
   - Create a new directory ~/backend-class/exercises/source-control
   - Create a new subdirectory within that directory called my-project
-  - Init a new git repo in git-repository
+  - Init a new git repo in my-project
 
 - Exercise 2
   - Add a new file called `teachers.txt`, stage and commit changes
