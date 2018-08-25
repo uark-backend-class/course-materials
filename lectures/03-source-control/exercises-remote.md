@@ -38,3 +38,6 @@
   - Add your favorite movie to the file `enter-your-favorite-movie.md`
   - Commit your change to the `master` branch
   - Push your change to your remote assignment repository
+
+- Exercise 9
+  - Group assignment link: https://classroom.github.com/g/7b8a5EDr
