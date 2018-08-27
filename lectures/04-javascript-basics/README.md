@@ -11,14 +11,14 @@
 - [Homework 2 - Problems](homework02-problems.md)
 - [Homework 3 - Problems](homework03-problems.md)
 
-## Lecture 1
+## Lecture 1 Intro to JavaScript and unary operators.
 
 - [Lecture 1 - Outline](lecture01-outline.md)
 - [Lecture 1 - Notes](lecture01-notes.md)
 - [Lecture 1 - Sample Code](lecture01-sample-code.js)
 - [Lecture 1 - Slides](javascript-basics.pdf)
 
-## Lecture 2
+## Lecture 2 Operators, Conditionals, Loops
 
 - [Lecture 2 - Outline](lecture02-outline.md)
 - [Lecture 2 - Notes](lecture02-notes.md)
@@ -31,7 +31,6 @@
 - [Lecture 3 - Notes](lecture03-notes.md)
 - [Lecture 3 - Exercises](lecture03-exercises.md)
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
-
 
 ## Lecture 4
 
@@ -71,7 +70,6 @@
 
 - [Lecture 10 - Exercises](lecture10-exercises.md)
 - [Lecture 10 - Exercise Solutions](lecture10-exercise-solutions.md)
-
 
 ## Resources
 
