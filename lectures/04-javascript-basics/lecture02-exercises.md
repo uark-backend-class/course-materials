@@ -38,6 +38,3 @@
 
 ## Exercise 8 (Loops)
 - Do the looping a triangle exercise in Eloquent JavaScipt located at the end of the chapter [here](http://eloquentjavascript.net/02_program_structure.html).
-
-## Exercise 9 (Functions)
-- Convert your JavaScript that calculates leap year into a function called isLeapYear. isLeapYear will take one parameter, the year, and return true if the year is a leap year. Otherwise, the function will return false.
