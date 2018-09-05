@@ -32,7 +32,7 @@
 - [Lecture 3 - Exercises](lecture03-exercises.md)
 - [Lecture 3 - Exercise Solutions](lecture03-exercise-solutions.md)
 
-## Lecture 4
+## Lecture 4 Functions
 
 - [Lecture 4 - Outline](lecture04-outline.md)
 - [Lecture 4 - Notes](lecture04-notes.md)
