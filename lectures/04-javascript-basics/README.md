@@ -39,14 +39,14 @@
 - [Lecture 4 - Exercises](lecture04-exercises.md)
 - [Lecture 4 - Exercise Solutions](lecture04-exercise-solutions.md)
 
-## Lecture 5
+## Lecture 5 Scope
 
 - [Lecture 5 - Outline](lecture05-outline.md)
 - [Lecture 5 - Notes](lecture05-notes.md)
 - [Lecture 5 - Exercises](lecture05-exercises.md)
 - [Lecture 5- Exercise Solutions](lecture05-exercise-solutions.md)
 
-## Lecture 6
+## Lecture 6 Exercise Review
 
 - [Lecture 6 - Exercises](lecture06-exercises.md)
 - [Lecture 6 - Exercise Solutions](lecture06-exercise-solutions.md)
