@@ -1,4 +1,4 @@
-# Async Await
+# Asynchronous Programming
 - Review of what is asynchronous exactly
 - History of working with asynchronous functions
   - Callbacks
