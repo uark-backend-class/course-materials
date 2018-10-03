@@ -46,7 +46,7 @@
 ## Lecture 6 - Asynchronous Programming
 
 - [Lecture 6 - Outline](lecture06-outline.md)
-- [Lecture 5 - Notes](lecture06-notes.md)
+- [Lecture 6 - Notes](lecture06-notes.md)
 - [Lecture 6 - Exercises](lecture06-exercises.md)
 
 ## Resources
