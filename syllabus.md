@@ -7,7 +7,7 @@
 - I will try to maintain a 24 hour turnaround time on all emails for this class.
 
 # Meeting Times
-- [Course Calendar](https://calendar.google.com/calendar/embed?src=dolltqonn7qtbhtn4oh5kcgic0%40group.calendar.google.com&ctz=America%2FChicago)
+- [Course Calendar](https://calendar.google.com/calendar/r?cid=cGZibmRoMzlidHJwYmxlMjAwbjJodXZjbDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
 - We meet regularly on Mondays and Wednesdays from 5:30 pm to 9:00 pm and every other Saturday from 9:00 am to 3:00 pm.
     - Breaks will be provided during class, so feel free to bring meals and snacks.
