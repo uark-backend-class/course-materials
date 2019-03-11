@@ -4,7 +4,7 @@
 
 - Create a directory structure in your home directory that looks like:
   - backend-class
-    - exercises
+    - lecture-notes
       - command-line
         - hello.txt
 
