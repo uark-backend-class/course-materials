@@ -5,7 +5,7 @@ Course materials (syllabus, lectures, additional resources) for the UAGC IT Read
 ## Table of Contents
 
 - [Lecture and Homework Schedule](schedule.md)
-- [Course Google Calendar](https://calendar.google.com/calendar?cid=cGZibmRoMzlidHJwYmxlMjAwbjJodXZjbDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+- [Course Google Calendar](https://calendar.google.com/calendar?cid=Y2xhc3Nyb29tMTAzMDMwNTc1MTAzNjY3NDc0OTA3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 - [Syllabus](syllabus.md)
 - [Resources](resources.md)
 - [Environment Setup](environment.md)
