@@ -1,5 +1,5 @@
 - Exercise 1
-  - Create a new directory ~/backend-class/exercises/source-control
+  - Create a new directory ~/backend-class/lecture-notes/version-control
   - Create a new subdirectory within that directory called my-project
   - Init a new git repo in my-project
 
