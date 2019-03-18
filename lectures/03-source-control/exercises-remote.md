@@ -40,4 +40,4 @@
   - Push your change to your remote assignment repository
 
 - Exercise 8
-  - Group assignment link: https://classroom.github.com/g/7b8a5EDr
+  - Group assignment link: https://classroom.github.com/g/G0-3w-Ay
