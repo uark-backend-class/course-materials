@@ -16,25 +16,24 @@
 
 ## Exercise 3
 - Create a variable with your first name and a variable with your last name.
-- Create a variable that concatenates the two name variables into your full name and log your full name to the console.
+- Create a variable called fullName that concatenates the first and last name variables using the + operator.
+- Log your full name to the console.
+- Create a variable called fullNameLiteral that combines the first name and last name variables using string literal backticks.
+- Log the fullNameLiteral variable to the console.
 
-## Exercise 4 (Conditionals)
-- Write a javascript file that contains two number variables.
-- Write a conditional statement to compare the two variables and output the larger of the two variables to the console.
+## Exercise 4
+- Create a constant named RADIUS and assign it a value of 5.
+- Calculate the area of the circle and assign it to a variable called area. (Use Math.PI to get the value of pi.)
+- Log the area to the console.
 
-## Exercise 5 (Conditionals)
-- Write a javascript file that contains a number variable for a year.
-- Determine if the year is a leap year.
-  - Leap years are divisible by four - except for years which are both divisible by 100 and not divisible by 400
-- Log to the console the year followed by true if a leap year or false if it is not a leap year (e.g. "2000 true", "1900 false", "2016 true", "1992 true")
+## Exercise 5
+- Create three number variables with the values of 5, 10, and 30.
+- Log the average of the variables to the console. (Should be 15)
 
-## Exercise 6 (Loops)
-- Write a while loop to write 0 to 10 to the console.
-- Write a for loop to write 0 to 10 to the console.
-
-## Exercise 7 (Loops)
-- Write a for loop to write even numbers 0 to 20 to the console.
-- Write a for loop to write odd numbers 0 to 20 to the console.
-
-## Exercise 8 (Loops)
-- Do the looping a triangle exercise in Eloquent JavaScipt located at the end of the chapter [here](http://eloquentjavascript.net/02_program_structure.html).
+## Exercise 6
+- Log to the console whether 5 < 10.
+- Log to the console whether 5 > 10.
+- Log to the console whether 5 == 10.
+- Log to the console whether 10 == 10.
+- Log to the console whether 10 == "10".
+- Log to the console whether 10 === "10".
