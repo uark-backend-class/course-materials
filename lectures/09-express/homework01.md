@@ -10,7 +10,7 @@
     * GET
     * POST
     * PUT
-* The route method (GET, PUT, POST) doesn't need to reflect the use-cases we discussed in class (CURD database operations). As we haven't covered databases in lecture yet. This is just for practice creating different types of endpoints.
+* The route method (GET, PUT, POST) doesn't need to reflect the use-cases we discussed in class (CRUD database operations). As we haven't covered databases in lecture yet. This is just for practice creating different types of endpoints.
 * We have already written several self-contained functions in our Javascript Basics section that will easily convert to the API format. Reference Section 4 Lectures 6 through 10 for example problems. Select any that you want from these previous examples.
 * These routes should accept the function arguments as either query parameters or a post body and return the results of the function in the response.
 * You should write tests for each of your routes using the tools we covered in lecture.
