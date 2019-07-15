@@ -39,7 +39,7 @@
 - [Lecture 4 - Exercises](lecture04-exercises.md)
 - [Lecture 4 - Exercise Solutions](lecture04-exercise-solutions.md)
 
-## Lecture 4
+## Lecture 5 - Streams/Buffers
 
 - [Lecture 5 - Notes](lecture05-notes.md)
 - [Lecture 5 - Slides](lecture05-slides.pdf)
