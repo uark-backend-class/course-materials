@@ -1,11 +1,10 @@
-## Project Approval Due: TBD
-
-## Final Project Due: TBD 
+## Final Project Due: October 28, 2020 
 
 ### Requirements
 
 - Has an API component
-- Provide Postman examples
+- Provide Postman/Insomnia examples, if you don't have a frontend
+- Include a set of queries created in Postman/Insomnia that demonstrate all routes
 - Has unit tests
 - Has database component
 - No front-end required, but OK if wanted
@@ -13,12 +12,7 @@
 - Uses a combination of core Node modules and external libraries
 - Regular commits to GitHub to show progress
 - Needs to be deployed to the cloud
-- GitHub repo name should be descriptive with respect to what the project is
-  - Good: `social-network-for-cats`
-  - Bad: `backend-development-final-project`
-- Do not use any sort of templating engine or project generator
-- Include a set of queries created in Postman that demonstrates all routes
-
+- Do not use any sort of templating engine or project generator (e.g. do not use express-generator)
 
 ### Examples
 
