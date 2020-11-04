@@ -1,7 +1,5 @@
 # Homework 1 - Command Line
 
-## Due Wednesday, May 27
-
 ### Further Reading
 
 Please read through the Viking Code School article, [A Command Line Crash Course](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course).
