@@ -7,7 +7,7 @@ npm init
 npm install node-emoji --save
 git add .
 git commit -m 'Initialize project'
-touch index.js && atom .
+touch index.js && code .
 ```
 
 _index.js_:
