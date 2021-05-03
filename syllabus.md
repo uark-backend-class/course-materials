@@ -7,13 +7,13 @@
 - I will try to maintain a 24 hour turnaround time on all emails for this class.
 
 # Meeting Times
-- [Course Calendar](https://calendar.google.com/calendar?cid=Y2xhc3Nyb29tMTAzMDMwNTc1MTAzNjY3NDc0OTA3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+- [Course Calendar](https://calendar.google.com/calendar/u/0?cid=bmY0YThubGZiNjN0dGcwbG41YW9taG5mOTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
-- We meet regularly on Mondays and Wednesdays from 5:30 pm to 9:00 pm and every other Saturday from 9:00 am to 3:00 pm.
-    - Breaks will be provided during class, so feel free to bring meals and snacks.
+- We meet regularly on Mondays and Wednesdays from 5:30 pm to 7:30 pm, with an open discussion period and review every Friday from 3pm to 4pm.
+    - There will typically be a 15 minute break around 6:30 pm.
     - A calendar will be provided so as to keep track of holidays where we will not be having class.
 
-## Inclement Weather
+## Inclement Weather (Not applicable)
 
 - If the University of Arkansas or NWACC are closed, we will not be meeting for class. The instructors will otherwise make class cancellations known by noon via email. If you feel it is unsafe for you to come to class, please email the instructors.
 
@@ -25,9 +25,9 @@
 
 # Classroom Policies
 
-- Drinks in closed containers are allowed in the classroom. A breakroom and break time will be provided for meals.
+- (N/A) Drinks in closed containers are allowed in the classroom. A breakroom and break time will be provided for meals.
 - Attendance is mandatory. Please, keep in contact with your instructor in the event of having to miss a class.
-- Computer will be provided for students in class, but you are encouraged to bring your own laptop.
+- (N/A) Computer will be provided for students in class, but you are encouraged to bring your own laptop.
     - The instructors are equipped to help you with Linux/OSX machines.
 
 # Grading
