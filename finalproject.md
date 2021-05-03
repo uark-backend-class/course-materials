@@ -1,4 +1,4 @@
-## Final Project Due: October 28, 2020 
+## Final Project Due: TBD (Approximately 6 months after start of class)
 
 ### Requirements
 
