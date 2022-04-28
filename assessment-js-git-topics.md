@@ -14,3 +14,4 @@ Topics that will be covered in Evaluation 1 (JavaScript and Git)
   * Arrays
   * Objects (creation, properties, methods)
   * Scope
+  * Higher-order functions
