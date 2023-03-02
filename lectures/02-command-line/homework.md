@@ -6,7 +6,7 @@ Please read through the Viking Code School article, [A Command Line Crash Course
 
 ### Exercise 1
 
-- Add an alias named `crunchy` that accomplishes the following:
+- Create an alias named `crunchy` that accomplishes the following:
   - Create a sub-directory named `crunchy` in your home directory
     - This folder should _always_ be in your home directory
   - Create a file named `peanutbutter.txt`
