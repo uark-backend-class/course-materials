@@ -7,7 +7,7 @@ Please read through the Viking Code School article, [A Command Line Crash Course
 ### Exercise 1
 
 - According to the man page, what are the official short and long descriptions of echo on your system?
-- Add an alias named `crunchy` to your bash profile that accomplishes the following:
+- Add an alias named `crunchy` that accomplishes the following:
   - Create a sub-directory named `crunchy` in your home directory
     - This folder should _always_ be in your home directory
   - Create a file named `peanutbutter.txt`
