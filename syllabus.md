@@ -8,7 +8,7 @@
 
 # Meeting Times
 
-- We meet regularly on Mondays and Thursdays from 5:30 pm to 7:30 pm, with an open discussion period and review every Thursday from 4pm to 5pm.
+- We meet regularly on Mondays and Thursdays from 5:30 pm to 7:30 pm, with an open discussion period and review every Friday from 4pm to 5pm.
     - There will typically be a 15 minute break around 6:30 pm.
     - A calendar will be provided so as to keep track of holidays where we will not be having class.
 
