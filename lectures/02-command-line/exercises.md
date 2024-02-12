@@ -5,7 +5,7 @@
 - Create a directory structure in your home directory that looks like:
   - backend-class
     - lecture-notes
-      - command-line
+      - 1-command-line
         - hello.txt
 
 ## Exercise 2
